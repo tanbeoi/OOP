@@ -23,7 +23,7 @@ namespace SwinAdventure
             }
         }
 
-        public GameObject Locate(string id)
+        public GameObject? Locate(string id)
         {
             if (AreYou(id))
             {
@@ -32,6 +32,14 @@ namespace SwinAdventure
             else
             {
                 return _inventory.Fetch(id);
+            }
+        }
+
+        public override string FullDescription
+        {
+            get
+            {
+                return "You are " + Name + " " + FullDescription + "\nYou are carrying:\n" + _inventory.ItemList;
             }
         }
     }

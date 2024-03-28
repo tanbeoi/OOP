@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\tanph\\.nuget\\packages\\": {}
+    "C:\\Users\\Tan Pham\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\4.2\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj",
+      "projectUniqueName": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.2\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj",
       "projectName": "SwinAdventure",
-      "projectPath": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\4.2\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj",
-      "packagesPath": "C:\\Users\\tanph\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\4.2\\SwinAdventure\\SwinAdventure\\obj\\",
+      "projectPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.2\\SwinAdventure\\SwinAdventure\\SwinAdventure.csproj",
+      "packagesPath": "C:\\Users\\Tan Pham\\.nuget\\packages\\",
+      "outputPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.2\\SwinAdventure\\SwinAdventure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tanph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tan Pham\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
