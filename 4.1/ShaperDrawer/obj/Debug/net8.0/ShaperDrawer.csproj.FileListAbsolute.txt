@@ -1,0 +1,42 @@
+D:\Personal\Coding\Schoolwork\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\Coding\Schoolwork\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfoInputs.cache
+D:\Personal\Coding\Schoolwork\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfo.cs
+D:\Personal\Coding\Schoolwork\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.csproj.CoreCompileInputs.cache
+D:\Personal\Coding\Schoolwork\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.exe
+D:\Personal\Coding\Schoolwork\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.deps.json
+D:\Personal\Coding\Schoolwork\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.runtimeconfig.json
+D:\Personal\Coding\Schoolwork\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.dll
+D:\Personal\Coding\Schoolwork\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.pdb
+D:\Personal\Coding\Schoolwork\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.dll
+D:\Personal\Coding\Schoolwork\ShaperDrawer\obj\Debug\net8.0\refint\ShaperDrawer.dll
+D:\Personal\Coding\Schoolwork\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.pdb
+D:\Personal\Coding\Schoolwork\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.genruntimeconfig.cache
+D:\Personal\Coding\Schoolwork\ShaperDrawer\obj\Debug\net8.0\ref\ShaperDrawer.dll
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.exe
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.deps.json
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.runtimeconfig.json
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.dll
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.pdb
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfoInputs.cache
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfo.cs
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.csproj.CoreCompileInputs.cache
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.dll
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\obj\Debug\net8.0\refint\ShaperDrawer.dll
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.pdb
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.genruntimeconfig.cache
+C:\Users\tanph\OneDrive - Swinburne University\OOP\2.3\ShaperDrawer\obj\Debug\net8.0\ref\ShaperDrawer.dll
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.exe
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.deps.json
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.runtimeconfig.json
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.dll
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.pdb
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfoInputs.cache
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfo.cs
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.csproj.CoreCompileInputs.cache
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.dll
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug\net8.0\refint\ShaperDrawer.dll
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.pdb
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.genruntimeconfig.cache
+C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug\net8.0\ref\ShaperDrawer.dll
