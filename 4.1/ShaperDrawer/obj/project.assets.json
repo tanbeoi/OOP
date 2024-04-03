@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tan Pham\\OneDrive - Swinburne University\\OOP\\3.3\\ShaperDrawer\\ShaperDrawer.csproj",
+      "projectUniqueName": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ShaperDrawer.csproj",
       "projectName": "ShaperDrawer",
-      "projectPath": "C:\\Users\\Tan Pham\\OneDrive - Swinburne University\\OOP\\3.3\\ShaperDrawer\\ShaperDrawer.csproj",
+      "projectPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ShaperDrawer.csproj",
       "packagesPath": "C:\\Users\\Tan Pham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tan Pham\\OneDrive - Swinburne University\\OOP\\3.3\\ShaperDrawer\\obj\\",
+      "outputPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tan Pham\\AppData\\Roaming\\NuGet\\NuGet.Config",

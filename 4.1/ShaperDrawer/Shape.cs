@@ -8,59 +8,56 @@ using SplashKitSDK;
 
 namespace ShaperDrawer
 {
-    internal class Shape
+    public abstract class Shape
     {
-        private float _x, _y;
-        private int _width, _height;
-        private SplashKitSDK.Color _color;
-        private bool _selected;
-        public Shape()
+        public float _x, _y;
+        
+        public SplashKitSDK.Color _color;
+        public bool _selected;
+        public Shape(SplashKitSDK.Color color)
         {
             _x = 0.0f;
             _y = 0.0f;
-            _width = 100;
-            _height = 100;
-            _color = SplashKitSDK.Color.Green;
+            _color = color;
       
         }
 
-        public void X (float x)
+        public Shape() : this(SplashKitSDK.Color.Yellow)
         {
-            _x = x;
         }
 
-        public void Y (float y)
+        public float X
         {
-            _y = y;
+            get { return _x; }
+            set { _x = value; }
         }
 
-        public void Color (SplashKitSDK.Color clr)
+        public float Y
         {
-            _color = clr;
-        }
-        public void Draw()
-        {
-            if (_selected) { DrawOutline(); }
-            SplashKit.FillRectangle(_color, _x, _y, _width, _height);
-
+            get { return _y; }
+            set { _y = value; }
         }
 
-        public bool IsAt(Point2D pt)
+        public SplashKitSDK.Color Color
         {
-            return (pt.X >= _x && pt.X <= _x + _width && pt.Y >= _y && pt.Y <= _y + _height);
-           
+            get { return _color; }
+            set { _color = value; }
         }
-        
+
+        public abstract void Draw();
+
+
+        // Check if mouse is within the shape 
+        public abstract bool IsAt(Point2D pt);
+
         public bool Selected
         {
             get { return _selected; }
             set { _selected = value; }
         }
 
-        public void DrawOutline()
-        {
-            SplashKit.FillRectangle(SplashKitSDK.Color.Black, _x - 2, _y - 2, _width + 4, _height + 4);
-        }
+        public abstract void DrawOutline();
+
            
     }
 }

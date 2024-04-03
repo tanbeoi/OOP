@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShaperDrawer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5754752eb8e150fe502a445985619a239e209e37")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShaperDrawer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShaperDrawer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

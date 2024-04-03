@@ -9,7 +9,7 @@ namespace ShaperDrawer
 {
     internal class Drawing
     {
-        private readonly List<Shape> _shapes;
+        private readonly List<Shape> _shapes; //list of shapes
         private Color _background;
 
         public Drawing(Color background)
@@ -64,6 +64,7 @@ namespace ShaperDrawer
             }
         }
 
+        //create a list of shapes that are to be deleted 
         public List<Shape> SelectedShapes
         {
             get
