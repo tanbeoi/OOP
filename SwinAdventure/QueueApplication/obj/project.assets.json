@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\QueueApplication\\QueueApplication\\SwinAdventure.csproj",
+      "projectUniqueName": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\SwinAdventure.csproj",
       "projectName": "SwinAdventure",
-      "projectPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\QueueApplication\\QueueApplication\\SwinAdventure.csproj",
+      "projectPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\SwinAdventure.csproj",
       "packagesPath": "C:\\Users\\Tan Pham\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\QueueApplication\\QueueApplication\\obj\\",
+      "outputPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tan Pham\\AppData\\Roaming\\NuGet\\NuGet.Config",

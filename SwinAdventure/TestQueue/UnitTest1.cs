@@ -6,13 +6,14 @@ namespace TestQueue
     {
         Item item1 = new Item(new string[] { "sword" }, "sword", "a sword");
         Item item2 = new Item(new string[] { "shield" }, "shield", "a shield");
+        Item item3 = new Item(new string[] { "shiba" }, "shiba", "a shiba");
 
         [SetUp]
         public void Setup()
         {
         }
 
-
+        // Test the Item class
         [Test]
         public void ItemIdentifiable()
         {
@@ -31,6 +32,7 @@ namespace TestQueue
             Assert.That(item1.FullDescription, Is.EqualTo("a sword"));
         }
 
+        // Test the Inventory class
         [Test]
         public void FindItem()
         {
@@ -80,6 +82,7 @@ namespace TestQueue
 
         }
 
+        // Test the Player class
         [Test]
         public void PlayerIdentifiable()
         {
@@ -125,5 +128,56 @@ namespace TestQueue
             Assert.That(player.FullDescription, Is.EqualTo("You are Tan A player\nYou are carrying:\nsword (sword)\nshield (shield)\n"));
         }
 
+        //Test the Bag class
+        [Test]
+        public void BagLocate()
+        {
+            Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "a backpack");
+            backpack.Inventory.Put(item1);
+            backpack.Inventory.Put(item2);
+            backpack.Inventory.Put(item3);
+
+            //ask to return item and item stays in backpack
+            Assert.That(item3, Is.EqualTo(backpack.Locate("shiba")));
+            Assert.IsTrue(backpack.Inventory.HasItem("shiba"));
+
+        }
+
+        [Test]
+        public void BagLocatesItself()
+        {
+            Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "a backpack");
+            Assert.That(backpack, Is.EqualTo(backpack.Locate("backpack")));
+        }
+
+        [Test]
+        public void BagLocateNothing()
+        {
+            Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "a backpack");
+            Assert.That(backpack.Locate("sword"), Is.Null);
+        }
+
+        [Test]
+        public void BagFullDescription()
+        {
+            Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "a backpack");
+            backpack.Inventory.Put(item1);
+            backpack.Inventory.Put(item2);
+            backpack.Inventory.Put(item3);
+
+            //the list string below is the expected output, consisting of every item in the following format: name ( first id)
+            Assert.That(backpack.FullDescription, Is.EqualTo("In the backpack you can see:\nsword (sword)\nshield (shield)\nshiba (shiba)\n"));
+        }
+
+        [Test]
+        public void BagInBag()
+        {
+            Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "a backpack");
+            Bag satchel = new Bag(new string[] { "satchel" }, "satchel", "a satchel");
+
+            backpack.Inventory.Put(satchel);
+
+            Assert.That(satchel, Is.EqualTo(backpack.Locate("satchel")));
+        }
     }
 }
