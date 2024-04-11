@@ -14,7 +14,7 @@ namespace SwinAdventure
         {
             foreach (string id in idents)
             {
-                _identifiers.Add(id.ToLower());
+                AddIdentifier(id.ToLower());
             }
         }
 
