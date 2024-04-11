@@ -41,5 +41,13 @@ namespace ShaperDrawer
         {
             SplashKit.FillRectangle(SplashKitSDK.Color.Black, _x - 2, _y - 2, _width + 4, _height + 4);
         }
+
+        public override void SaveTo(StreamWriter writer)
+        {
+            writer.WriteLine("Rectangle");
+            base.SaveTo(writer);
+            writer.WriteLine(_width);
+            writer.WriteLine(_height);
+        }
     }
 }

@@ -58,6 +58,11 @@ namespace ShaperDrawer
 
         public abstract void DrawOutline();
 
-           
+        public virtual void SaveTo(StreamWriter writer)
+        {
+            writer.WriteColor(Color);
+            writer.WriteLine(X);
+            writer.WriteLine(Y);
+        }
     }
 }
