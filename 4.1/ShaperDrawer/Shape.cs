@@ -64,5 +64,12 @@ namespace ShaperDrawer
             writer.WriteLine(X);
             writer.WriteLine(Y);
         }
+
+        public virtual void LoadFrom(StreamReader reader)
+        {
+            Color = reader.readColor();
+            X = reader.readInteger();
+            Y = reader.readInteger();
+        }
     }
 }

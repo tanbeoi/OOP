@@ -51,5 +51,18 @@ namespace ShaperDrawer
         {
             SplashKit.FillCircle(SplashKitSDK.Color.Black, _x + _radius, _y + _radius, _radius + 2);
         }
+
+        public override void SaveTo(StreamWriter writer)
+        {
+            writer.WriteLine("Circle");
+            base.SaveTo(writer);
+            writer.WriteLine(_radius);
+        }
+
+        public override void LoadFrom(StreamReader reader)
+        {
+            base.LoadFrom(reader);
+            _radius = reader.readInteger();
+        }
     }
 }

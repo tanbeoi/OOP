@@ -49,5 +49,13 @@ namespace ShaperDrawer
             writer.WriteLine(_width);
             writer.WriteLine(_height);
         }
+
+        public override void LoadFrom(StreamReader reader)
+        {
+            base.LoadFrom(reader);
+            _width = reader.readInteger();
+            _height = reader.readInteger();
+        }
+        
     }
 }

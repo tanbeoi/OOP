@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 using SplashKitSDK;
 
 namespace ShaperDrawer
@@ -93,12 +94,47 @@ namespace ShaperDrawer
             using (StreamWriter writer = new StreamWriter(filename))
             {
                 writer.WriteColor(Background);
-                writer.WriteLine(ShapeCount);
+                writer.WriteLine(_shapes.Count);
 
                 foreach (Shape s in _shapes)
                 {
                     s.SaveTo(writer);
                 }
+            }
+        }
+
+        public void Load(string filename)
+        {
+            using (StreamReader reader = new StreamReader(filename))
+            {
+                Background = reader.readColor();
+                int count = reader.readInteger();
+
+                _shapes.Clear();
+
+                for (int i = 0; i < count; i++)
+                {
+                    string? kind = reader.ReadLine();
+                    if (kind == "Rectangle")
+                    {
+                        MyRectangle r = new MyRectangle();
+                        r.LoadFrom(reader);
+                        _shapes.Add(r);
+                    }
+                    else if (kind == "Circle")
+                    {
+                        MyCircle c = new MyCircle();
+                        c.LoadFrom(reader);
+                        _shapes.Add(c);
+                    }
+                    else
+                    {
+                        MyLine l = new MyLine();
+                        l.LoadFrom(reader);
+                        _shapes.Add(l);
+                    }
+                }
+                reader.Close();
             }
         }
     }

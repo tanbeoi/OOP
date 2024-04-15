@@ -3,13 +3,6 @@
   "WorkspaceRootPath": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\IdentifiableObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|d:\\personal\\coding\\schoolwork\\sem 2\\oop\\oop git\\4.1\\shaperdrawer\\myline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|solutionrelative:myline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|d:\\personal\\coding\\schoolwork\\sem 2\\oop\\oop git\\4.1\\shaperdrawer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,12 +15,20 @@
       "RelativeMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|solutionrelative:myrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|d:\\personal\\coding\\schoolwork\\sem 2\\oop\\oop git\\4.1\\shaperdrawer\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|solutionrelative:shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|d:\\personal\\coding\\schoolwork\\sem 2\\oop\\oop git\\4.1\\shaperdrawer\\myline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|solutionrelative:myline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|d:\\personal\\coding\\schoolwork\\sem 2\\oop\\oop git\\4.1\\shaperdrawer\\mycircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|solutionrelative:mycircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|d:\\personal\\coding\\schoolwork\\sem 2\\oop\\oop git\\4.1\\shaperdrawer\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|solutionrelative:shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|d:\\personal\\coding\\schoolwork\\sem 2\\oop\\oop git\\4.1\\shaperdrawer\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B74D4A4-273B-4B28-9943-A65A672CA3DF}|ShaperDrawer.csproj|solutionrelative:extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,33 +38,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IdentifiableObject.cs",
-              "DocumentMoniker": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\IdentifiableObject.cs",
-              "RelativeDocumentMoniker": "..\\..\\SwinAdventure\\QueueApplication\\IdentifiableObject.cs",
-              "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\IdentifiableObject.cs",
-              "RelativeToolTip": "..\\..\\SwinAdventure\\QueueApplication\\IdentifiableObject.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "MyRectangle.cs",
+              "DocumentMoniker": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\MyRectangle.cs",
+              "RelativeDocumentMoniker": "MyRectangle.cs",
+              "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\MyRectangle.cs",
+              "RelativeToolTip": "MyRectangle.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowDsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T03:53:16.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T07:33:24.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "ExtensionMethods.cs",
+              "DocumentMoniker": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ExtensionMethods.cs",
+              "RelativeDocumentMoniker": "ExtensionMethods.cs",
+              "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ExtensionMethods.cs",
+              "RelativeToolTip": "ExtensionMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T03:08:38.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MyLine.cs",
               "DocumentMoniker": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\MyLine.cs",
               "RelativeDocumentMoniker": "MyLine.cs",
               "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\MyLine.cs",
               "RelativeToolTip": "MyLine.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA3wCcAAAAJAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwDMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T11:30:51.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T11:30:51.885Z"
             },
             {
               "$type": "Document",
@@ -73,58 +84,43 @@
               "RelativeDocumentMoniker": "MyCircle.cs",
               "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\MyCircle.cs",
               "RelativeToolTip": "MyCircle.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwC4AAAAnAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAqwEAAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:56:13.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T09:56:13.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyRectangle.cs",
-              "DocumentMoniker": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\MyRectangle.cs",
-              "RelativeDocumentMoniker": "MyRectangle.cs",
-              "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\MyRectangle.cs",
-              "RelativeToolTip": "MyRectangle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T07:33:24.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Shape.cs",
               "DocumentMoniker": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\Shape.cs",
               "RelativeDocumentMoniker": "Shape.cs",
               "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\Shape.cs",
               "RelativeToolTip": "Shape.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwCAAAAAJAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwEcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-10T04:56:11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Drawing.cs",
               "DocumentMoniker": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\Drawing.cs",
               "RelativeDocumentMoniker": "Drawing.cs",
               "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\Drawing.cs",
               "RelativeToolTip": "Drawing.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwD0AAAAUAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAH8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T10:41:08.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T10:41:08.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwC0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-10T04:52:35.017Z",
               "EditorCaption": ""
