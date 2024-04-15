@@ -55,3 +55,18 @@ C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0
 C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.pdb
 C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.genruntimeconfig.cache
 C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ref\ShaperDrawer.dll
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.exe
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.deps.json
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.runtimeconfig.json
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.dll
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.pdb
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfoInputs.cache
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfo.cs
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.csproj.CoreCompileInputs.cache
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.sourcelink.json
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.dll
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\refint\ShaperDrawer.dll
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.pdb
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.genruntimeconfig.cache
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ref\ShaperDrawer.dll
