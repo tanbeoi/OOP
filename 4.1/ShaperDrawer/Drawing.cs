@@ -88,7 +88,19 @@ namespace ShaperDrawer
             }
         }
 
+        public void Save(string filename)
+        {
+            using (StreamWriter writer = new StreamWriter(filename))
+            {
+                writer.WriteColor(Background);
+                writer.WriteLine(ShapeCount);
 
+                foreach (Shape s in _shapes)
+                {
+                    s.SaveTo(writer);
+                }
+            }
+        }
     }
 }
 
