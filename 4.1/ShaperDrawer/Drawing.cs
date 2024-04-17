@@ -91,7 +91,8 @@ namespace ShaperDrawer
 
         public void Save(string filename)
         {
-            using (StreamWriter writer = new StreamWriter(filename))
+            StreamWriter writer = new StreamWriter(filename);
+            try
             {
                 writer.WriteColor(Background);
                 writer.WriteLine(_shapes.Count);
@@ -101,11 +102,16 @@ namespace ShaperDrawer
                     s.SaveTo(writer);
                 }
             }
+            finally
+            {
+                writer.Close();
+            }
         }
 
         public void Load(string filename)
         {
-            using (StreamReader reader = new StreamReader(filename))
+            StreamReader reader = new StreamReader(filename);
+            try
             {
                 Background = reader.readColor();
                 int count = reader.readInteger();
@@ -115,27 +121,32 @@ namespace ShaperDrawer
                 for (int i = 0; i < count; i++)
                 {
                     string? kind = reader.ReadLine();
-                    if (kind == "Rectangle")
+                    Shape s;
+                    switch (kind)
                     {
-                        MyRectangle r = new MyRectangle();
-                        r.LoadFrom(reader);
-                        _shapes.Add(r);
+                        case "Rectangle":
+                            s = new MyRectangle();
+                            break;
+
+                        case "Circle":
+                            s = new MyCircle();
+                            break;
+                        case "Line":
+                            s = new MyLine();
+                            break;
+                        default:
+                            throw new InvalidDataException("Unknown shape kind: " + kind);
                     }
-                    else if (kind == "Circle")
-                    {
-                        MyCircle c = new MyCircle();
-                        c.LoadFrom(reader);
-                        _shapes.Add(c);
-                    }
-                    else
-                    {
-                        MyLine l = new MyLine();
-                        l.LoadFrom(reader);
-                        _shapes.Add(l);
-                    }
+
+                    s.LoadFrom(reader);
+                    AddShape(s);
                 }
+            }
+            finally
+            {
                 reader.Close();
             }
+
         }
     }
 }

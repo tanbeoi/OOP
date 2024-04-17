@@ -41,20 +41,7 @@ C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug
 C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.genruntimeconfig.cache
 C:\Users\Tan Pham\OneDrive - Swinburne University\OOP\3.3\ShaperDrawer\obj\Debug\net8.0\ref\ShaperDrawer.dll
 C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.exe
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.deps.json
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.runtimeconfig.json
 C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.dll
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.pdb
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfoInputs.cache
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfo.cs
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.csproj.CoreCompileInputs.cache
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.sourcelink.json
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.dll
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\refint\ShaperDrawer.dll
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.pdb
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.genruntimeconfig.cache
-C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ref\ShaperDrawer.dll
 D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.exe
 D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.deps.json
 D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.runtimeconfig.json
@@ -70,3 +57,16 @@ D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.
 D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.pdb
 D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.genruntimeconfig.cache
 D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ref\ShaperDrawer.dll
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfoInputs.cache
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.AssemblyInfo.cs
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.csproj.CoreCompileInputs.cache
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.sourcelink.json
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.dll
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\refint\ShaperDrawer.dll
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.pdb
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.deps.json
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.runtimeconfig.json
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\bin\Debug\net8.0\ShaperDrawer.pdb
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ShaperDrawer.genruntimeconfig.cache
+C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\obj\Debug\net8.0\ref\ShaperDrawer.dll
