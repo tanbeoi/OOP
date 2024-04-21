@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ShaperDrawer.csproj": {}
+    "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ShaperDrawer.csproj": {}
   },
   "projects": {
-    "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ShaperDrawer.csproj": {
+    "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ShaperDrawer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ShaperDrawer.csproj",
+        "projectUniqueName": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ShaperDrawer.csproj",
         "projectName": "ShaperDrawer",
-        "projectPath": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ShaperDrawer.csproj",
-        "packagesPath": "C:\\Users\\tanph\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\obj\\",
+        "projectPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\ShaperDrawer.csproj",
+        "packagesPath": "C:\\Users\\Tan Pham\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tanph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tan Pham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

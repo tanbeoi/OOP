@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static SwinAdventure.LookCommand;
 
 namespace SwinAdventure
 {
-    public class Bag : Item
+    public class Bag : Item, IHaveInventory
     {
         private Inventory _inventory = new Inventory();
 
@@ -37,6 +38,19 @@ namespace SwinAdventure
             get
             {
                 return _inventory;
+            }
+        }
+
+        GameObject? IHaveInventory.Locate(string id)
+        {
+            return Locate(id);
+        }
+
+        string IHaveInventory.Name
+        {
+            get
+            {
+                return Name;
             }
         }
     }

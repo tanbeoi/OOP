@@ -1,6 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 using SplashKitSDK;
+using System.IO;
 
 namespace ShaperDrawer
 {
@@ -84,17 +85,23 @@ namespace ShaperDrawer
 
                 if (SplashKit.KeyTyped(KeyCode.SKey))
                 {
-                    string directory = @"D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer";
-                    string filePath = System.IO.Path.Combine(directory, "TestDrawing.txt");
+                    string filePath = @"C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\TestDrawing.txt";
 
                     myDrawing.Save(filePath);
                 }
 
                 if (SplashKit.KeyTyped(KeyCode.OKey))
                 {
-                    string directory = @"D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer";
-                    string filePath = System.IO.Path.Combine(directory, "TestDrawing.txt");
-                    myDrawing.Load(filePath);
+                    try
+                    {
+                        string filePath = @"C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\TestDrawing.txt";
+
+                        myDrawing.Load(filePath);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.Error.WriteLine("Error loading file: {0}", e.Message);
+                    }
                 }
 
                 myDrawing.Draw();
