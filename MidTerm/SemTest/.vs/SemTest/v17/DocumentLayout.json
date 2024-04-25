@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\MidTerm\\SemTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0DE677-5EE8-4E46-87A6-688F0205C19F}|SemTest\\SemTest.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\midterm\\semtest\\semtest\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0DE677-5EE8-4E46-87A6-688F0205C19F}|SemTest\\SemTest.csproj|solutionrelative:semtest\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0DE677-5EE8-4E46-87A6-688F0205C19F}|SemTest\\SemTest.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\midterm\\semtest\\semtest\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0DE677-5EE8-4E46-87A6-688F0205C19F}|SemTest\\SemTest.csproj|solutionrelative:semtest\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0DE677-5EE8-4E46-87A6-688F0205C19F}|SemTest\\SemTest.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\midterm\\semtest\\semtest\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0DE677-5EE8-4E46-87A6-688F0205C19F}|SemTest\\SemTest.csproj|solutionrelative:semtest\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0DE677-5EE8-4E46-87A6-688F0205C19F}|SemTest\\SemTest.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\midterm\\semtest\\semtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0DE677-5EE8-4E46-87A6-688F0205C19F}|SemTest\\SemTest.csproj|solutionrelative:semtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0DE677-5EE8-4E46-87A6-688F0205C19F}|SemTest\\SemTest.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\midterm\\semtest\\semtest\\thing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0DE677-5EE8-4E46-87A6-688F0205C19F}|SemTest\\SemTest.csproj|solutionrelative:semtest\\thing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sales.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\MidTerm\\SemTest\\SemTest\\Sales.cs",
+              "RelativeDocumentMoniker": "SemTest\\Sales.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\MidTerm\\SemTest\\SemTest\\Sales.cs",
+              "RelativeToolTip": "SemTest\\Sales.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:09:30.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Batch.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\MidTerm\\SemTest\\SemTest\\Batch.cs",
+              "RelativeDocumentMoniker": "SemTest\\Batch.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\MidTerm\\SemTest\\SemTest\\Batch.cs",
+              "RelativeToolTip": "SemTest\\Batch.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T12:12:51.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\MidTerm\\SemTest\\SemTest\\Transaction.cs",
+              "RelativeDocumentMoniker": "SemTest\\Transaction.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\MidTerm\\SemTest\\SemTest\\Transaction.cs",
+              "RelativeToolTip": "SemTest\\Transaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T12:02:28.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Thing.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\MidTerm\\SemTest\\SemTest\\Thing.cs",
+              "RelativeDocumentMoniker": "SemTest\\Thing.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\MidTerm\\SemTest\\SemTest\\Thing.cs",
+              "RelativeToolTip": "SemTest\\Thing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T11:55:51.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\MidTerm\\SemTest\\SemTest\\Program.cs",
+              "RelativeDocumentMoniker": "SemTest\\Program.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\MidTerm\\SemTest\\SemTest\\Program.cs",
+              "RelativeToolTip": "SemTest\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T11:55:32.848Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
