@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D81E6015-2A3C-43EB-8600-F0F7290568F2}|3.1\\3.1.csproj|c:\\users\\tanph\\onedrive - swinburne university\\oop\\3.1\\3.1\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81E6015-2A3C-43EB-8600-F0F7290568F2}|3.1\\3.1.csproj|solutionrelative:3.1\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81E6015-2A3C-43EB-8600-F0F7290568F2}|3.1\\3.1.csproj|c:\\users\\tanph\\onedrive - swinburne university\\oop\\3.1\\3.1\\clock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81E6015-2A3C-43EB-8600-F0F7290568F2}|3.1\\3.1.csproj|solutionrelative:3.1\\clock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81E6015-2A3C-43EB-8600-F0F7290568F2}|3.1\\3.1.csproj|c:\\users\\tanph\\onedrive - swinburne university\\oop\\3.1\\3.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81E6015-2A3C-43EB-8600-F0F7290568F2}|3.1\\3.1.csproj|solutionrelative:3.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{401DE7CE-7105-418B-A160-F60F78181B2E}|TestProject2\\TestProject2.csproj|c:\\users\\tanph\\onedrive - swinburne university\\oop\\3.1\\testproject2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{401DE7CE-7105-418B-A160-F60F78181B2E}|TestProject2\\TestProject2.csproj|solutionrelative:testproject2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\TestProject2\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject2\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\TestProject2\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject2\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:02:24.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\3.1\\Program.cs",
+              "RelativeDocumentMoniker": "3.1\\Program.cs",
+              "ToolTip": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\3.1\\Program.cs",
+              "RelativeToolTip": "3.1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T03:16:50.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Clock.cs",
+              "DocumentMoniker": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\3.1\\Clock.cs",
+              "RelativeDocumentMoniker": "3.1\\Clock.cs",
+              "ToolTip": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\3.1\\Clock.cs",
+              "RelativeToolTip": "3.1\\Clock.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T03:17:17.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Counter.cs",
+              "DocumentMoniker": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\3.1\\Counter.cs",
+              "RelativeDocumentMoniker": "3.1\\Counter.cs",
+              "ToolTip": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\3.1\\Counter.cs",
+              "RelativeToolTip": "3.1\\Counter.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T03:17:10.48Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
