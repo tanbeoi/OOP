@@ -18,3 +18,18 @@ C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\ob
 C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\SwinAdventure.pdb
 C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\SwinAdventure.genruntimeconfig.cache
 C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\ref\SwinAdventure.dll
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\bin\Debug\net8.0\SwinAdventure.exe
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\bin\Debug\net8.0\SwinAdventure.deps.json
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\bin\Debug\net8.0\SwinAdventure.runtimeconfig.json
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\bin\Debug\net8.0\SwinAdventure.dll
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\bin\Debug\net8.0\SwinAdventure.pdb
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\SwinAdventure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\SwinAdventure.AssemblyInfoInputs.cache
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\SwinAdventure.AssemblyInfo.cs
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\SwinAdventure.csproj.CoreCompileInputs.cache
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\SwinAdventure.sourcelink.json
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\SwinAdventure.dll
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\refint\SwinAdventure.dll
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\SwinAdventure.pdb
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\SwinAdventure.genruntimeconfig.cache
+D:\Personal\Coding\Schoolwork\Sem 2\OOP\OOP GIT\SwinAdventure\QueueApplication\obj\Debug\net8.0\ref\SwinAdventure.dll

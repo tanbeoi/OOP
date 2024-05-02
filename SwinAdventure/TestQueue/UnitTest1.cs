@@ -79,7 +79,7 @@ namespace TestQueue
             inventory.Put(item2);
 
             //the list string below is the expected output, consisting of every item in the following format: name ( first id)
-            Assert.That(inventory.ItemList, Is.EqualTo("sword (sword)\nshield (shield)\n"));
+            Assert.That(inventory.ItemList, Is.EqualTo("- sword (sword)\n- shield (shield)\n"));
 
         }
 
@@ -126,7 +126,7 @@ namespace TestQueue
             player.Inventory.Put(item2);
 
             //the list string below is the expected output, consisting of every item in the following format: name ( first id)
-            Assert.That(player.FullDescription, Is.EqualTo("You are Tan A player\nYou are carrying:\nsword (sword)\nshield (shield)\n"));
+            Assert.That(player.FullDescription, Is.EqualTo("You are Tan A player\nYou are carrying:\n- sword (sword)\n- shield (shield)\n"));
         }
 
         //Test the Bag class
@@ -167,7 +167,7 @@ namespace TestQueue
             backpack.Inventory.Put(item3);
 
             //the list string below is the expected output, consisting of every item in the following format: name ( first id)
-            Assert.That(backpack.FullDescription, Is.EqualTo("In the backpack you can see:\nsword (sword)\nshield (shield)\nshiba (shiba)\n"));
+            Assert.That(backpack.FullDescription, Is.EqualTo("In the backpack you can see:\n- sword (sword)\n- shield (shield)\n- shiba (shiba)\n"));
         }
 
         [Test]
@@ -190,7 +190,7 @@ namespace TestQueue
             player.Inventory.Put(item2);
             LookCommand LookCommand = new LookCommand();
 
-            string expectedDescription = "You are Tan A player\nYou are carrying:\nsword (sword)\nshield (shield)\n";
+            string expectedDescription = "You are Tan A player\nYou are carrying:\n- sword (sword)\n- shield (shield)\n";
             string testDescription = LookCommand.Execute(player, new string[] { "look", "at", "me" });
             Assert.That(testDescription, Is.EqualTo(expectedDescription));
 

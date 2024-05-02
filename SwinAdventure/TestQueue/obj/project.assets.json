@@ -998,19 +998,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tan Pham\\.nuget\\packages\\": {}
+    "C:\\Users\\tanph\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\TestQueue\\TestQueue.csproj",
+      "projectUniqueName": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\TestQueue\\TestQueue.csproj",
       "projectName": "TestQueue",
-      "projectPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\TestQueue\\TestQueue.csproj",
-      "packagesPath": "C:\\Users\\Tan Pham\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\TestQueue\\obj\\",
+      "projectPath": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\TestQueue\\TestQueue.csproj",
+      "packagesPath": "C:\\Users\\tanph\\.nuget\\packages\\",
+      "outputPath": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\TestQueue\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tan Pham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tanph\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1024,8 +1024,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\SwinAdventure.csproj": {
-              "projectPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\SwinAdventure.csproj"
+            "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\SwinAdventure.csproj": {
+              "projectPath": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\SwinAdventure.csproj"
             }
           }
         }
