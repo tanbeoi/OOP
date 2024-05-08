@@ -21,7 +21,7 @@ namespace SwinAdventure
                 string list = "";
                 foreach (Item item in _items)
                 {
-                    list += "- " + item.ShortDescription + "\n";
+                    list += "\t " + item.ShortDescription + "\n";
                 }
                 return list;
             }
