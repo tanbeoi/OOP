@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{AC06ECDD-F7F9-46C7-90CA-8A42EFA04679}|TestQueue\\TestQueue.csproj|solutionrelative:testqueue\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\swinadventure\\queueapplication\\bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|solutionrelative:queueapplication\\bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\swinadventure\\queueapplication\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|solutionrelative:queueapplication\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\swinadventure\\queueapplication\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|solutionrelative:queueapplication\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +23,12 @@
       "RelativeMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|solutionrelative:queueapplication\\identifiableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\swinadventure\\queueapplication\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|solutionrelative:queueapplication\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\swinadventure\\queueapplication\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|solutionrelative:queueapplication\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\swinadventure\\queueapplication\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|solutionrelative:queueapplication\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\swinadventure\\queueapplication\\bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|solutionrelative:queueapplication\\bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\swinadventure\\queueapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "TestQueue\\UnitTest1.cs",
               "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\TestQueue\\UnitTest1.cs",
               "RelativeToolTip": "TestQueue\\UnitTest1.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAUwFUAAAAgAAAA",
+              "ViewState": "AQIAAL4AAAAAAAAAAAAAANQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T01:50:37.346Z",
               "EditorCaption": ""
@@ -103,33 +103,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Bag.cs",
               "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\Bag.cs",
               "RelativeDocumentMoniker": "QueueApplication\\Bag.cs",
               "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\Bag.cs",
               "RelativeToolTip": "QueueApplication\\Bag.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB8AAABSAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T01:16:41.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T01:16:41.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\Inventory.cs",
               "RelativeDocumentMoniker": "QueueApplication\\Inventory.cs",
               "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\Inventory.cs",
               "RelativeToolTip": "QueueApplication\\Inventory.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T04:13:13.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T04:13:13.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GameObject.cs",
               "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\GameObject.cs",
               "RelativeDocumentMoniker": "QueueApplication\\GameObject.cs",
@@ -137,12 +135,11 @@
               "RelativeToolTip": "QueueApplication\\GameObject.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T04:12:21.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T04:12:21.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\Player.cs",
               "RelativeDocumentMoniker": "QueueApplication\\Player.cs",
@@ -150,12 +147,11 @@
               "RelativeToolTip": "QueueApplication\\Player.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAA1wCoAAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T04:13:38.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T04:13:38.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\Item.cs",
               "RelativeDocumentMoniker": "QueueApplication\\Item.cs",
@@ -163,12 +159,11 @@
               "RelativeToolTip": "QueueApplication\\Item.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAwwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T04:12:50.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T04:12:50.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IdentifiableObject.cs",
               "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\IdentifiableObject.cs",
               "RelativeDocumentMoniker": "QueueApplication\\IdentifiableObject.cs",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "QueueApplication\\IdentifiableObject.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T04:19:00.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T04:19:00.251Z"
             }
           ]
         }
