@@ -37,7 +37,7 @@ namespace SwinAdventure
         {
             get
             {
-                return Name + " (" + FirstId + ")";
+                return Description + " (" + FirstId + ")";
             }
         }
 
@@ -45,7 +45,7 @@ namespace SwinAdventure
         {
             get
             {
-                return _description;
+                return Description;
             }
         }
 

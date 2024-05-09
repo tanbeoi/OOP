@@ -22,8 +22,10 @@
             player.Inventory.Put(container);
 
             Item staff = new Item(new string[] { "staff", "stick" }, "Staff", "A wooden (magical?) staff");
+            Item glasses = new Item(new string[] { "glasses", "spectacles" }, "Glasses", "A pair of glasses");
 
             container.Inventory.Put(staff);
+            container.Inventory.Put(glasses);
 
             while (true)
             {

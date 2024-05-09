@@ -24,7 +24,7 @@ namespace TestQueue
         [Test]
         public void ShortDescription()
         {
-            Assert.That(item1.ShortDescription, Is.EqualTo("sword (sword)"));
+            Assert.That(item1.ShortDescription, Is.EqualTo("a sword (sword)"));
         }
 
         [Test]
@@ -79,7 +79,7 @@ namespace TestQueue
             inventory.Put(item2);
 
             //the list string below is the expected output, consisting of every item in the following format: name ( first id)
-            Assert.That(inventory.ItemList, Is.EqualTo("\t sword (sword)\n\t shield (shield)\n"));
+            Assert.That(inventory.ItemList, Is.EqualTo("\t a sword (sword)\n\t a shield (shield)\n"));
 
         }
 
@@ -126,7 +126,7 @@ namespace TestQueue
             player.Inventory.Put(item2);
 
             //the list string below is the expected output, consisting of every item in the following format: name ( first id)
-            Assert.That(player.FullDescription, Is.EqualTo("You are Tan A player\nYou are carrying:\n\t sword (sword)\n\t shield (shield)\n"));
+            Assert.That(player.FullDescription, Is.EqualTo("You are Tan A player\nYou are carrying:\n\t a sword (sword)\n\t a shield (shield)\n"));
         }
 
         //Test the Bag class
@@ -167,7 +167,7 @@ namespace TestQueue
             backpack.Inventory.Put(item3);
 
             //the list string below is the expected output, consisting of every item in the following format: name ( first id)
-            Assert.That(backpack.FullDescription, Is.EqualTo("In the backpack you can see:\n\t sword (sword)\n\t shield (shield)\n\t shiba (shiba)\n"));
+            Assert.That(backpack.FullDescription, Is.EqualTo("In the backpack you can see:\n\t a sword (sword)\n\t a shield (shield)\n\t a shiba (shiba)\n"));
         }
 
         [Test]
@@ -190,7 +190,7 @@ namespace TestQueue
             player.Inventory.Put(item2);
             LookCommand LookCommand = new LookCommand();
 
-            string expectedDescription = "You are Tan A player\nYou are carrying:\n\t sword (sword)\n\t shield (shield)\n";
+            string expectedDescription = "You are Tan A player\nYou are carrying:\n\t a sword (sword)\n\t a shield (shield)\n";
             string testDescription = LookCommand.Execute(player, new string[] { "look", "at", "me" });
             Assert.That(testDescription, Is.EqualTo(expectedDescription));
 
@@ -230,6 +230,21 @@ namespace TestQueue
 
             string expectedDescription = "a gem";
             string testDescription = LookCommand.Execute(player, new string[] { "look", "at", "gem", "in", "backpack" });
+            Assert.That(testDescription, Is.EqualTo(expectedDescription));
+        }
+
+        [Test]
+        public void LookAtBag()
+        {
+            Player player = new Player("Tan", "A player");
+            Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "a backpack");
+            backpack.Inventory.Put(item1);
+            backpack.Inventory.Put(item2);
+            player.Inventory.Put(backpack);
+            LookCommand LookCommand = new LookCommand();
+
+            string expectedDescription = "In the backpack you can see:\n\t a sword (sword)\n\t a shield (shield)\n";
+            string testDescription = LookCommand.Execute(player, new string[] { "look", "at", "backpack" });
             Assert.That(testDescription, Is.EqualTo(expectedDescription));
         }
 
