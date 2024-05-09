@@ -161,13 +161,13 @@ namespace TestQueue
         [Test]
         public void BagFullDescription()
         {
-            Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "a backpack");
+            Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "A backpack");
             backpack.Inventory.Put(item1);
             backpack.Inventory.Put(item2);
             backpack.Inventory.Put(item3);
 
             //the list string below is the expected output, consisting of every item in the following format: name ( first id)
-            Assert.That(backpack.FullDescription, Is.EqualTo("In the backpack you can see:\n\t a sword (sword)\n\t a shield (shield)\n\t a shiba (shiba)\n"));
+            Assert.That(backpack.FullDescription, Is.EqualTo("A backpack\nYou look in the backpack and see:\n\t a sword (sword)\n\t a shield (shield)\n\t a shiba (shiba)\n"));
         }
 
         [Test]
@@ -237,13 +237,13 @@ namespace TestQueue
         public void LookAtBag()
         {
             Player player = new Player("Tan", "A player");
-            Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "a backpack");
+            Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "A backpack");
             backpack.Inventory.Put(item1);
             backpack.Inventory.Put(item2);
             player.Inventory.Put(backpack);
             LookCommand LookCommand = new LookCommand();
 
-            string expectedDescription = "In the backpack you can see:\n\t a sword (sword)\n\t a shield (shield)\n";
+            string expectedDescription = "A backpack\nYou look in the backpack and see:\n\t a sword (sword)\n\t a shield (shield)\n";
             string testDescription = LookCommand.Execute(player, new string[] { "look", "at", "backpack" });
             Assert.That(testDescription, Is.EqualTo(expectedDescription));
         }
@@ -297,6 +297,55 @@ namespace TestQueue
             string testDescription4 = LookCommand.Execute(player, new string[] { "look", "in", "a", "in", "b" });
             string expectedDescription3 = "What do you want to look at?";
             Assert.That(testDescription4, Is.EqualTo(expectedDescription3));
+        }
+
+        //Test for Location
+        [Test]
+        public void LookInPlayerLocationForItem()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Location = new Location(new string[] { "Garden" }, "A garden filled with butterflies");
+            player.Location.Inventory.Put(item1);
+
+            LookCommand LookCommand = new LookCommand();
+            string textDescription = LookCommand.Execute(player, new string[] { "look", "at", "sword" });
+            string expectedDescription = "a sword";
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+        }
+
+        [Test]
+        public void LookInPlayerLocationForBag()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Location = new Location(new string[] { "Garden" }, "A garden filled with butterflies");
+
+            Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "a backpack");
+            backpack.Inventory.Put(item1);
+
+            player.Location.Inventory.Put(backpack);
+            
+
+            LookCommand LookCommand = new LookCommand();
+            string textDescription = LookCommand.Execute(player, new string[] { "look", "at", "sword", "in", "backpack" });
+            string expectedDescription = "a sword";
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+        }
+
+        [Test]
+        public void LocationIdentifyItself()
+        {
+            Location location = new Location(new string[] { "Garden" }, "A garden filled with butterflies");
+            Assert.IsTrue(location.AreYou("Garden"));
+        }
+
+        [Test]
+        public void PlayerLocateItemInLocation()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Location = new Location(new string[] { "Garden" }, "A garden filled with butterflies");
+            player.Location.Inventory.Put(item1);
+
+            Assert.That(item1, Is.EqualTo(player.Location.Locate("sword")));
         }
     }
 }

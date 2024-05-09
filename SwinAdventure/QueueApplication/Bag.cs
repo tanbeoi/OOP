@@ -29,7 +29,12 @@ namespace SwinAdventure
         {
             get
             {
-                return "In the " + Name + " you can see:\n" + _inventory.ItemList;
+                if (Inventory.ItemList == "")
+                {
+                    return Description + "The " + Name + " is empty.";
+                }
+                else
+                return Description + "\nYou look in the " + Name + " and see:\n" + _inventory.ItemList;
             }
         }
 

@@ -3,30 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using static SwinAdventure.LookCommand;
 
 namespace SwinAdventure
 {
-    public class Player : GameObject, IHaveInventory
+    public class Location : IdentifiableObject, IHaveInventory
     {
+        private string _description;
         private Inventory _inventory = new Inventory();
-        private Location _location;
 
-        public Player(string name, string desc) : base(new string[] { "me", "inventory" }, name, desc)
+        public Location(string[] ids, string description) : base(ids)
         {
-
-        }
-
-        public Location Location
-        {
-            get
-            {
-                return _location;
-            }
-            set
-            {
-                _location = value;
-            }
+            _description = description;
         }
 
         public Inventory Inventory
@@ -36,24 +25,24 @@ namespace SwinAdventure
                 return _inventory;
             }
         }
-
-        public GameObject? Locate(string id)
-        {
-            if (AreYou(id))
-            {
-                return this;
-            }
-            else
-            {
-                return _inventory.Fetch(id);
-            }
-        }
-
-        public override string FullDescription
+        public string Description
         {
             get
             {
-                return "You are " + Name + " " + Description + "\nYou are carrying:\n" + _inventory.ItemList;
+                return _description;
+            }
+        }
+
+        public GameObject? Locate(string id)
+        {
+                return _inventory.Fetch(id);
+        }
+
+        public string FullDescription
+        {
+            get
+            {
+                return "You are in a small" + FirstId + "\n" + Description + "\n" + "In this room you can see:\n" + _inventory.ItemList;
             }
         }
 
@@ -66,7 +55,7 @@ namespace SwinAdventure
         {
             get
             {
-                return Name;
+                return FirstId;
             }
         }
     }
