@@ -43,9 +43,17 @@ namespace SwinAdventure
             {
                 return this;
             }
+            else if (Inventory.HasItem(id))
+            {
+                return Inventory.Fetch(id);
+            }
+            else if (Location != null)
+            {
+                    return Location.Locate(id);   
+            }
             else
             {
-                return _inventory.Fetch(id);
+                return null;
             }
         }
 

@@ -8,14 +8,12 @@ using static SwinAdventure.LookCommand;
 
 namespace SwinAdventure
 {
-    public class Location : IdentifiableObject, IHaveInventory
+    public class Location : GameObject, IHaveInventory
     {
-        private string _description;
         private Inventory _inventory = new Inventory();
 
-        public Location(string[] ids, string description) : base(ids)
+        public Location(string[] ids, string name, string description) : base(ids, name, description)
         {
-            _description = description;
         }
 
         public Inventory Inventory
@@ -25,24 +23,21 @@ namespace SwinAdventure
                 return _inventory;
             }
         }
-        public string Description
-        {
-            get
-            {
-                return _description;
-            }
-        }
 
         public GameObject? Locate(string id)
         {
-                return _inventory.Fetch(id);
+            if (AreYou(id))
+            {
+                   return this;
+            }
+            return _inventory.Fetch(id);
         }
 
-        public string FullDescription
+        public override string FullDescription
         {
             get
             {
-                return "You are in a small" + FirstId + "\n" + Description + "\n" + "In this room you can see:\n" + _inventory.ItemList;
+                return "You are in a small" + Name + "\n" + Description + "\n" + "In this room you can see:\n" + Inventory.ItemList;
             }
         }
 
@@ -55,7 +50,7 @@ namespace SwinAdventure
         {
             get
             {
-                return FirstId;
+                return Name;
             }
         }
     }

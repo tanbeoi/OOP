@@ -304,7 +304,7 @@ namespace TestQueue
         public void LookInPlayerLocationForItem()
         {
             Player player = new Player("Tan", "A player");
-            player.Location = new Location(new string[] { "Garden" }, "A garden filled with butterflies");
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
             player.Location.Inventory.Put(item1);
 
             LookCommand LookCommand = new LookCommand();
@@ -317,13 +317,13 @@ namespace TestQueue
         public void LookInPlayerLocationForBag()
         {
             Player player = new Player("Tan", "A player");
-            player.Location = new Location(new string[] { "Garden" }, "A garden filled with butterflies");
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
 
             Bag backpack = new Bag(new string[] { "backpack" }, "backpack", "a backpack");
             backpack.Inventory.Put(item1);
 
             player.Location.Inventory.Put(backpack);
-            
+
 
             LookCommand LookCommand = new LookCommand();
             string textDescription = LookCommand.Execute(player, new string[] { "look", "at", "sword", "in", "backpack" });
@@ -332,20 +332,35 @@ namespace TestQueue
         }
 
         [Test]
+        public void LookInPlayerLocationForPlayerLocationWhichHasItem()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+
+            player.Location.Inventory.Put(item1);
+
+            LookCommand LookCommand = new LookCommand();
+            string textDescription = LookCommand.Execute(player, new string[] { "look", "at", "sword", "in", "Garden" });
+            string expectedDescription = "a sword";
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+        }
+
+        [Test]
         public void LocationIdentifyItself()
         {
-            Location location = new Location(new string[] { "Garden" }, "A garden filled with butterflies");
+            Location location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
             Assert.IsTrue(location.AreYou("Garden"));
         }
 
         [Test]
-        public void PlayerLocateItemInLocation()
+        public void LocateItemInPlayerLocation()
         {
             Player player = new Player("Tan", "A player");
-            player.Location = new Location(new string[] { "Garden" }, "A garden filled with butterflies");
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
             player.Location.Inventory.Put(item1);
 
             Assert.That(item1, Is.EqualTo(player.Location.Locate("sword")));
         }
+
     }
 }

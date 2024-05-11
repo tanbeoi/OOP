@@ -58,20 +58,10 @@ namespace SwinAdventure
 
         public IHaveInventory? FetchContainer(Player p, string containerId)
         {
-            // Check if the player has the container
             if (p.Locate(containerId) != null)
             {
                 return p.Locate(containerId) as IHaveInventory;
             }
-            //Else check if the player location has the container
-            else if (p.Location != null)
-            {
-                if (p.Location.Locate(containerId) != null)
-                {
-                    return p.Location.Locate(containerId) as IHaveInventory;
-                }
-                return null;
-            }     
             else
             {
                 return null;
@@ -84,13 +74,6 @@ namespace SwinAdventure
 
             if (thing == null)
             {
-                if ((containerId as Player)?.Location != null)
-                {
-                    if (LookAtIn(thingId, (containerId as Player).Location) != null)
-                    {
-                        return LookAtIn(thingId, (containerId as Player).Location);
-                    }
-                }
                 return "I can't find the " + thingId + " in the " + containerId.Name;
             }
             else
