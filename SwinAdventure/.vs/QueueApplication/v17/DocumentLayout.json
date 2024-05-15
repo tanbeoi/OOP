@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\queueapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|d:\\personal\\coding\\schoolwork\\sem 2\\oop\\oop git\\swinadventure\\queueapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AE1CF44-015A-4A8F-9F87-0FD8780439C5}|QueueApplication\\SwinAdventure.csproj|solutionrelative:queueapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC06ECDD-F7F9-46C7-90CA-8A42EFA04679}|TestQueue\\TestQueue.csproj|d:\\personal\\coding\\schoolwork\\sem 2\\oop\\oop git\\swinadventure\\testqueue\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC06ECDD-F7F9-46C7-90CA-8A42EFA04679}|TestQueue\\TestQueue.csproj|D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\testqueue\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC06ECDD-F7F9-46C7-90CA-8A42EFA04679}|TestQueue\\TestQueue.csproj|solutionrelative:testqueue\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,8 +62,7 @@
               "RelativeToolTip": "TestQueue\\UnitTest1.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAowDIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T01:50:37.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-07T01:50:37.346Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "QueueApplication\\LookCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:24:30.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T11:24:30.643Z"
             },
             {
               "$type": "Document",
@@ -98,7 +96,7 @@
               "RelativeDocumentMoniker": "QueueApplication\\Program.cs",
               "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\SwinAdventure\\QueueApplication\\Program.cs",
               "RelativeToolTip": "QueueApplication\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T01:27:57.103Z",
               "EditorCaption": ""
