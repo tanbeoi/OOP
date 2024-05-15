@@ -85,7 +85,11 @@ namespace ShaperDrawer
 
                 if (SplashKit.KeyTyped(KeyCode.SKey))
                 {
-                    string filePath = @"C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\TestDrawing.txt";
+                    // Get the directory of the .csproj file
+                    string directory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+
+                    // Construct the relative file path
+                    string filePath = System.IO.Path.Combine(directory, "TestDrawing.txt");
 
                     myDrawing.Save(filePath);
                 }
@@ -94,7 +98,11 @@ namespace ShaperDrawer
                 {
                     try
                     {
-                        string filePath = @"C:\Personal\Computer Science\Sem 2\OOP\OOP GIT\4.1\ShaperDrawer\TestDrawing.txt";
+                        // Get the directory of the .csproj file
+                        string directory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+
+                        // Construct the relative file path
+                        string filePath = System.IO.Path.Combine(directory, "TestDrawing.txt");
 
                         myDrawing.Load(filePath);
                     }
