@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SwinAdventure
-{
+{   
+
     public class GameObject : IdentifiableObject
     {
         private string _name;

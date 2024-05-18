@@ -17,6 +17,21 @@ namespace SwinAdventure
 
         }
 
+        public string Move (Direction direction)
+        {
+            Path? path = _location.GetPath(direction);
+
+            if (path == null)
+            {
+                return "There is no path in that direction";
+            }
+            else
+            {
+                _location = path.DestinationLocation;
+                return "You head " + path.PathDirection + "\n" + path.FullDescription + "\nYou have arrived in a small " + path.DestinationLocation.Name;
+            }
+        }
+
         public Location Location
         {
             get

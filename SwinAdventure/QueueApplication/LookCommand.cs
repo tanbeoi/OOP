@@ -18,11 +18,11 @@ namespace SwinAdventure
             {
                 return "I don't know how to look like that";
             }
-            else if (text[0] != "look")
+            else if (text[0].ToLower() != "look")
             {
                 return "Error in look input";
             }
-            else if (text[1] != "at")
+            else if (text[1].ToLower() != "at")
             {
                 return "What do you want to look at?";
             }
@@ -32,7 +32,7 @@ namespace SwinAdventure
             }
             else if (text.Length == 5)
             {
-                if (text[3] != "in")
+                if (text[3].ToLower() != "in")
                 {
                     return "What do you want to look in?";
                 }
