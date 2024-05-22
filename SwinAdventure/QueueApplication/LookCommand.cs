@@ -38,7 +38,7 @@ namespace SwinAdventure
                 }
                 else
                 {
-                    IHaveInventory container = FetchContainer(p, text[4]) as IHaveInventory;
+                    IHaveInventory? container = FetchContainer(p, text[4]) as IHaveInventory;
 
                     // Check if container is null after the cast
                     if (container == null)
@@ -81,14 +81,5 @@ namespace SwinAdventure
                 return thing.FullDescription;
             }
         }
-
-        public interface IHaveInventory
-        {
-            GameObject? Locate(string id);
-
-            string Name { get; }
-        }
-
-
     }
 }

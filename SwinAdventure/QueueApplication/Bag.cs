@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static SwinAdventure.LookCommand;
+using static SwinAdventure.PickupCommand;
 
 namespace SwinAdventure
 {
