@@ -10,19 +10,17 @@ namespace SwinAdventure
     {
         North, NorthEast, East, SouthEast, South, SouthWest, West, NorthWest, Up, Down
     }
-    public class Path : IdentifiableObject
+    public class Path : GameObject
     {
-        private Direction Direction;
+        private Direction Direction;    
         private Location Destination;
-        private string Description;
 
         public bool IsLocked { get; set; } = false;
 
-        public Path(Direction direction, Location destination, string description) : base(new string[] { direction.ToString()})
+        public Path(Direction direction, string name, string description, Location destination) : base(new string[] { direction.ToString()}, name, description)
         {
             Direction = direction;
             Destination = destination;
-            Description = description;
         }
         
         public Location DestinationLocation
@@ -30,14 +28,6 @@ namespace SwinAdventure
             get
             {
                 return Destination;
-            }
-        }
-
-        public string FullDescription
-        {
-            get
-            {
-                return Description;
             }
         }
 
@@ -52,6 +42,11 @@ namespace SwinAdventure
         public bool CanMove()
         {
             return !IsLocked;
+        }
+
+        public void Move(Player p)
+        {
+            p.Location = DestinationLocation;
         }
     }
 }

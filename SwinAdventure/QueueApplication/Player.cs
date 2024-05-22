@@ -19,7 +19,7 @@ namespace SwinAdventure
 
         public string Move (Direction direction)
         {
-            Path? path = _location.GetPath(direction);
+            Path? path = Location.GetPath(direction);
 
             if (path == null)
             {
@@ -27,8 +27,8 @@ namespace SwinAdventure
             }
             else
             {
-                _location = path.DestinationLocation;
-                return "You head " + path.PathDirection + "\n" + path.FullDescription + "\nYou have arrived in a small " + path.DestinationLocation.Name;
+                Location = path.DestinationLocation;
+                return "You head " + path.PathDirection.ToString() + "\n" + path.FullDescription + "\nYou have arrived in a small " + path.DestinationLocation.Name;
             }
         }
 

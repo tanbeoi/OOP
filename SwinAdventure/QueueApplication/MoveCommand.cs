@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SwinAdventure
 {
-    internal class MoveCommand : Command
+    public class MoveCommand : Command
     {
         public MoveCommand() : base(new string[] { "move, go, head, leave" })
         {

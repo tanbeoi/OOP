@@ -1,4 +1,5 @@
 using SwinAdventure;
+using Path = SwinAdventure.Path;
 
 namespace TestQueue
 {
@@ -362,5 +363,65 @@ namespace TestQueue
             Assert.That(item1, Is.EqualTo(player.Location.Locate("sword")));
         }
 
+        //Test for MoveCommand
+        [Test]
+        public void MoveToLocation()
+        {
+            Player player = new Player("Tan", "A player");
+            Location Garden = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+            Location Forest = new Location(new string[] { "Forest" }, "Forest", "A forest filled with trees");
+            player.Location = Garden;
+
+            Path path = new Path(Direction.North, "north", "You go through a door", Forest);
+            player.Location.AddPath(path);
+
+            MoveCommand moveCommand = new MoveCommand();
+            string textDescription = moveCommand.Execute(player, new string[] { "move", "north" });
+            string expectedDescription = "You head North\nYou go through a door\nYou have arrived in a small Forest";
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+        }
+
+        [Test]
+        public void GetPathFromLocation()
+        {
+            Location Garden = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+            Location Forest = new Location(new string[] { "Forest" }, "Forest", "A forest filled with trees");
+
+            Path path = new Path(Direction.NorthEast, "northeast", "You go through a door", Forest);
+            Garden.AddPath(path);
+
+            Assert.That(path, Is.EqualTo(Garden.GetPath(Direction.NorthEast)));
+        }
+
+        [Test]
+        public void PathMovePlayer()
+        {
+            Player player = new Player("Tan", "A player");
+            Location Garden = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+            Location Forest = new Location(new string[] { "Forest" }, "Forest", "A forest filled with trees");
+            player.Location = Garden;
+
+            Path path = new Path(Direction.West, "west", "You go through a door", Forest);
+            
+
+            path.Move(player);
+            Assert.That(player.Location, Is.EqualTo(Forest));
+        }
+
+        [Test]
+        public void PlayerLocationDontChange()
+        {
+            Player player = new Player("Tan", "A player");
+            Location Garden = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+            Location Forest = new Location(new string[] { "Forest" }, "Forest", "A forest filled with trees");
+            player.Location = Garden;
+
+            Path path = new Path(Direction.North, "north", "You go through a door", Forest);
+            player.Location.AddPath(path);
+
+            MoveCommand moveCommand = new MoveCommand();
+            string textDescription = moveCommand.Execute(player, new string[] { "move", "south" });
+            Assert.That(player.Location, Is.EqualTo(Garden));
+        }
     }
 }
