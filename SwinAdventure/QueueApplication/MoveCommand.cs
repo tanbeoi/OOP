@@ -8,7 +8,7 @@ namespace SwinAdventure
 {
     public class MoveCommand : Command
     {
-        public MoveCommand() : base(new string[] { "move, go, head, leave" })
+        public MoveCommand() : base(new string[] { "move" , "go", "head", "leave" })
         {
         }
 

@@ -378,6 +378,17 @@ namespace TestQueue
             MoveCommand moveCommand = new MoveCommand();
             string textDescription = moveCommand.Execute(player, new string[] { "move", "north" });
             string expectedDescription = "You head North\nYou go through a door\nYou have arrived in a small Forest";
+        //Test for PickupCommand
+        [Test]
+        public void ErrorCommand1()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+            player.Location.Inventory.Put(item1);
+
+            PickupCommand pickupCommand = new PickupCommand();
+            string textDescription = pickupCommand.Execute(player, new string[] { "pickup", "sword", "in" });
+            string expectedDescription = "I don't know how to pickup like that";
             Assert.That(textDescription, Is.EqualTo(expectedDescription));
         }
 
@@ -423,5 +434,48 @@ namespace TestQueue
             string textDescription = moveCommand.Execute(player, new string[] { "move", "south" });
             Assert.That(player.Location, Is.EqualTo(Garden));
         }
+        public void ErrorCommand2()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+            player.Location.Inventory.Put(item1);
+
+            PickupCommand pickupCommand = new PickupCommand();
+            string textDescription = pickupCommand.Execute(player, new string[] { "equip", "sword" });
+            string expectedDescription = "Error in pickup input";
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+        }
+
+        [Test]
+        public void PickupItemFromPlayerLocation()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+            player.Location.Inventory.Put(item3);
+
+            PickupCommand pickupCommand = new PickupCommand();
+            string textDescription = pickupCommand.Execute(player, new string[] { "pickup", "shiba" });
+            string expectedDescription = "You have picked up the shiba";
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+        }
+
+        [Test]
+        public void PickupItemFromBagInPlayerLocation()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+
+            Bag chest = new Bag(new string[] { "chest" }, "chest", "a chest");
+            chest.Inventory.Put(item3);
+
+            player.Location.Inventory.Put(chest);
+
+            PickupCommand pickupCommand = new PickupCommand();
+            string textDescription = pickupCommand.Execute(player, new string[] { "pickup", "shiba", "in", "chest" });
+            string expectedDescription = "You have picked up the shiba from the chest";
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+        }
+
+
     }
 }
