@@ -378,17 +378,6 @@ namespace TestQueue
             MoveCommand moveCommand = new MoveCommand();
             string textDescription = moveCommand.Execute(player, new string[] { "move", "north" });
             string expectedDescription = "You head North\nYou go through a door\nYou have arrived in a small Forest";
-        //Test for PickupCommand
-        [Test]
-        public void ErrorCommand1()
-        {
-            Player player = new Player("Tan", "A player");
-            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
-            player.Location.Inventory.Put(item1);
-
-            PickupCommand pickupCommand = new PickupCommand();
-            string textDescription = pickupCommand.Execute(player, new string[] { "pickup", "sword", "in" });
-            string expectedDescription = "I don't know how to pickup like that";
             Assert.That(textDescription, Is.EqualTo(expectedDescription));
         }
 
@@ -434,6 +423,21 @@ namespace TestQueue
             string textDescription = moveCommand.Execute(player, new string[] { "move", "south" });
             Assert.That(player.Location, Is.EqualTo(Garden));
         }
+
+        //Test for PickupCommand
+        [Test]
+        public void ErrorCommand1()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+            player.Location.Inventory.Put(item1);
+
+            PickupCommand pickupCommand = new PickupCommand();
+            string textDescription = pickupCommand.Execute(player, new string[] { "pickup", "sword", "in" });
+            string expectedDescription = "I don't know how to pickup like that";
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+        }
+
         public void ErrorCommand2()
         {
             Player player = new Player("Tan", "A player");
@@ -456,7 +460,10 @@ namespace TestQueue
             PickupCommand pickupCommand = new PickupCommand();
             string textDescription = pickupCommand.Execute(player, new string[] { "pickup", "shiba" });
             string expectedDescription = "You have picked up the shiba";
+            
+            //Check string output and if item is in player inventory
             Assert.That(textDescription, Is.EqualTo(expectedDescription));
+            Assert.That(item3, Is.EqualTo(player.Inventory.Fetch("shiba")));
         }
 
         [Test]
@@ -471,11 +478,108 @@ namespace TestQueue
             player.Location.Inventory.Put(chest);
 
             PickupCommand pickupCommand = new PickupCommand();
-            string textDescription = pickupCommand.Execute(player, new string[] { "pickup", "shiba", "in", "chest" });
+            string textDescription = pickupCommand.Execute(player, new string[] { "pickup", "shiba", "from", "chest" });
             string expectedDescription = "You have picked up the shiba from the chest";
+
+            //Check string output and if item is in player inventory
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+            Assert.That(item3, Is.EqualTo(player.Inventory.Fetch("shiba")));
+        }
+
+        //Test for Command Processor
+        [Test]
+        public void ExecuteLookCommand()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Inventory.Put(item1);
+            player.Inventory.Put(item2);
+
+            CommandProcessor commandProcessor = new CommandProcessor();
+            string textDescription = commandProcessor.ExecuteCommand(player, "look at me");
+            string expectedDescription = "You are Tan A player\nYou are carrying:\n\t a sword (sword)\n\t a shield (shield)\n";
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+        }
+
+        [Test]
+        public void ExecuteMoveCommand()
+        {
+            Player player = new Player("Tan", "A player");
+            Location Garden = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+            Location Forest = new Location(new string[] { "Forest" }, "Forest", "A forest filled with trees");
+            player.Location = Garden;
+
+            Path path = new Path(Direction.North, "north", "You go through a door", Forest);
+            player.Location.AddPath(path);
+
+            CommandProcessor commandProcessor = new CommandProcessor();
+            string textDescription = commandProcessor.ExecuteCommand(player, "move north");
+            string expectedDescription = "You head North\nYou go through a door\nYou have arrived in a small Forest";
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+        }
+
+        [Test]
+        public void ExecutePickupCommand()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+            player.Location.Inventory.Put(item3);
+
+            CommandProcessor commandProcessor = new CommandProcessor();
+            string textDescription = commandProcessor.ExecuteCommand(player, "pickup shiba");
+            string expectedDescription = "You have picked up the shiba";
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+        }
+
+        [Test]
+        public void ExecuteDropCommand()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Inventory.Put(item1);
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+
+            CommandProcessor commandProcessor = new CommandProcessor();
+            string textDescription = commandProcessor.ExecuteCommand(player, "drop sword");
+            string expectedDescription = "You have dropped the sword";
             Assert.That(textDescription, Is.EqualTo(expectedDescription));
         }
 
 
+        //Test for DropCommand
+        [Test]
+        public void DropItemFromPlayerInventoryInPlayerLocation()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Inventory.Put(item1);
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+
+            DropCommand dropCommand = new DropCommand();
+            string textDescription = dropCommand.Execute(player, new string[] { "drop", "sword" });
+            string expectedDescription = "You have dropped the sword";
+
+            //Check string output, if item is in player inventory
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+            Assert.IsFalse(player.Inventory.HasItem("sword"));
+            Assert.IsTrue(player.Location.Inventory.HasItem("sword"));
+        }
+
+        [Test]
+        public void DropItemInBagInLocation()
+        {
+            Player player = new Player("Tan", "A player");
+            player.Inventory.Put(item1);
+
+            Bag chest = new Bag(new string[] { "chest" }, "chest", "a chest");
+            player.Location = new Location(new string[] { "Garden" }, "Garden", "A garden filled with butterflies");
+            player.Location.Inventory.Put(chest);
+
+            DropCommand dropCommand = new DropCommand();
+            string textDescription = dropCommand.Execute(player, new string[] { "put", "sword", "in", "chest" });
+            string expectedDescription = "You have dropped the sword in the chest";
+
+            //Check string output and if item is in player inventory
+            Assert.That(textDescription, Is.EqualTo(expectedDescription));
+            Assert.IsFalse(player.Inventory.HasItem("sword"));
+            Assert.IsTrue(chest.Inventory.HasItem("sword"));
+        }
     }
 }

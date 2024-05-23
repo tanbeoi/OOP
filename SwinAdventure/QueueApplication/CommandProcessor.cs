@@ -11,6 +11,7 @@ namespace SwinAdventure
         LookCommand _lookCommand = new LookCommand();
         MoveCommand _moveCommand = new MoveCommand();
         PickupCommand _pickupCommand = new PickupCommand();
+        DropCommand _dropCommand = new DropCommand();
 
         public CommandProcessor()
         {
@@ -18,6 +19,8 @@ namespace SwinAdventure
 
         public string ExecuteCommand(Player p, string command)
         {
+            // Trim trailing spaces from the command
+            command = command.TrimEnd();
             // Split the command into an array of words contained within the command
             string[] convertedCommand = command.Split(' ');
 
@@ -32,6 +35,10 @@ namespace SwinAdventure
             else if (_pickupCommand.AreYou(convertedCommand[0]))
             {
                 return _pickupCommand.Execute(p, convertedCommand);
+            }
+            else if (_dropCommand.AreYou(convertedCommand[0]))
+            {
+                return _dropCommand.Execute(p, convertedCommand);
             }
             else
             {

@@ -19,11 +19,16 @@ namespace SwinAdventure
             get
             {
                 string list = "";
-                foreach (Item item in _items)
+                if (_items.Count == 0)
                 {
-                    list += "\t " + item.ShortDescription + "\n";
+                    return "There is no item here";
+                } else {
+                    foreach (Item item in _items)
+                    {
+                        list += "\t " + item.ShortDescription + "\n";
+                    }
+                    return list;
                 }
-                return list;
             }
         }
         public bool HasItem(string id)
@@ -52,6 +57,15 @@ namespace SwinAdventure
                     _items.Remove(item);
                     return item;
                 }
+            }
+            return null;
+        }
+
+        public Item? Take(Item itm)
+        {
+            if (_items.Remove(itm))
+            {
+                return itm;
             }
             return null;
         }

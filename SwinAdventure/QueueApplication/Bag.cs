@@ -59,5 +59,13 @@ namespace SwinAdventure
                 return Name;
             }
         }
+
+        Inventory IHaveInventory.Inventory
+        {
+            get
+            {
+                return Inventory;
+            }
+        }
     }
 }

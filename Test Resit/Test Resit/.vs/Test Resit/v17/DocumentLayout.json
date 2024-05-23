@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Mortal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Mortal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Immortal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Immortal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stadium.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Stadium.cs",
+              "RelativeDocumentMoniker": "Stadium.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Stadium.cs",
+              "RelativeToolTip": "Stadium.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:07:54.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Immortal.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Immortal.cs",
+              "RelativeDocumentMoniker": "Immortal.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Immortal.cs",
+              "RelativeToolTip": "Immortal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:07:52.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mortal.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Mortal.cs",
+              "RelativeDocumentMoniker": "Mortal.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Mortal.cs",
+              "RelativeToolTip": "Mortal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:07:53.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Character.cs",
+              "RelativeDocumentMoniker": "Character.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Character.cs",
+              "RelativeToolTip": "Character.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:07:51.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\Test Resit\\Test Resit\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:07:52.798Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

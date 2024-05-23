@@ -61,19 +61,32 @@ namespace SwinAdventure
 
         public string GetExits()
         {
-            string exits = "";
+            if (_paths.Count == 0)
+            {
+                return "There are no exits.";
+            }
+
+            StringBuilder exits = new StringBuilder();
+
             foreach (Path path in _paths)
             {
-                exits += path.PathDirection.ToString() + ", ";
+                exits.Append(path.PathDirection.ToString() + ", ");
             }
-            return exits;
+
+            // Remove the trailing ", "
+            if (exits.Length > 2)
+            {
+                exits.Length -= 2;
+            }
+
+            return "There are exits to the " + exits.ToString() + ".";
         }
 
         public override string FullDescription
         {
             get
             {
-                return "You are in a small" + Name + "\n" + Description + "\n" + "There are exits to the " + GetExits() +  ".\n\n" + "In this room you can see:\n" + Inventory.ItemList;
+                return "You are in a small " + Name + "\n" + Description + "\n" + GetExits() +  "\n\n" + "In this room you can see:\n" + Inventory.ItemList;
             }
         }
 
@@ -87,6 +100,14 @@ namespace SwinAdventure
             get
             {
                 return Name;
+            }
+        }
+
+        Inventory IHaveInventory.Inventory
+        {
+            get
+            {
+                return Inventory;
             }
         }
     }

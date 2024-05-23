@@ -29,19 +29,42 @@ namespace SwinAdventure
                 {
                     return "I can't find the " + text[1];
                 }
-                else
+                else if (p.Inventory.HasItem(thing.Name))
+                {
+                    return "You already have the " + thing.Name;
+                } else
                 {
                     p.Inventory.Put((Item)thing);
+                    p.Location.Inventory.Take((Item)thing);
                     return "You have picked up the " + thing.Name;
                 }
             }
             else if (text.Length == 4)
             {
-                if (text[2].ToLower() != "in")
+                if (text[2].ToLower() != "from")
                 {
                     return "Where is this item?";
-                }
-                else
+
+                } else if (text[3].ToLower() == "room")
+                {
+                    IHaveInventory room = p.Location;
+                    Item? thing = PickUpIn(text[1], room);
+
+                    if (thing == null)
+                    {
+                        return "I can't find the " + text[1] + " in the room";
+                    }
+                    else if (p.Inventory.HasItem(thing.Name))
+                    {
+                        return "You already have the " + thing.Name;
+                    }
+                    else
+                    {
+                        p.Inventory.Put((Item)thing);
+                        p.Location.Inventory.Take((Item)thing);
+                        return "You have picked up the " + thing.Name + " from the room";
+                    }
+                } else
                 {
                     IHaveInventory? container = FetchContainer(p, text[3]) as IHaveInventory;
 
@@ -58,9 +81,14 @@ namespace SwinAdventure
                         {
                             return "I can't find the " + text[1] + " in the " + container.Name;
                         }
+                        else if (p.Inventory.HasItem(thing.Name))
+                        {
+                            return "You already have the " + thing.Name;
+                        }
                         else
                         {
                             p.Inventory.Put((Item)thing);
+                            container.Inventory.Take((Item)thing);
                             return "You have picked up the " + thing.Name + " from the " + container.Name;
                         }
                     }
