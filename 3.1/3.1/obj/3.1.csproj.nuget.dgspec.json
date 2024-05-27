@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\3.1\\3.1.csproj": {}
+    "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\3.1\\3.1\\3.1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\3.1\\3.1.csproj": {
+    "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\3.1\\3.1\\3.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\3.1\\3.1.csproj",
+        "projectUniqueName": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\3.1\\3.1\\3.1.csproj",
         "projectName": "3.1",
-        "projectPath": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\3.1\\3.1.csproj",
-        "packagesPath": "C:\\Users\\tanph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tanph\\OneDrive - Swinburne University\\OOP\\3.1\\3.1\\obj\\",
+        "projectPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\3.1\\3.1\\3.1.csproj",
+        "packagesPath": "C:\\Users\\Tan Pham\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\3.1\\3.1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tanph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tan Pham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
