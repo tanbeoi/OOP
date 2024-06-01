@@ -22,10 +22,6 @@ namespace SwinAdventure
             {
                 return "Error in move input";
             }
-            else if (text[1].ToLower() != "north" && text[1].ToLower() != "south" && text[1].ToLower() != "east" && text[1].ToLower() != "west")
-            {
-                return "I don't know how to move like that";
-            }
             else
             {
                 if (text[1].ToLower() == "north" || text[1].ToLower() == "n")
@@ -44,31 +40,38 @@ namespace SwinAdventure
                 {
                     return p.Move(Direction.West);
 
-                } else if (text[1].ToLower() == "northeast" || text[1].ToLower() == "ne")
+                }
+                else if (text[1].ToLower() == "northeast" || text[1].ToLower() == "ne")
                 {
                     return p.Move(Direction.NorthEast);
 
-                } else if (text[1].ToLower() == "northwest" || text[1].ToLower() == "nw")
+                } 
+                else if (text[1].ToLower() == "northwest" || text[1].ToLower() == "nw")
                 {
                     return p.Move(Direction.NorthWest);
 
-                } else if (text[1].ToLower() == "southeast" || text[1].ToLower() == "se")
+                } 
+                else if (text[1].ToLower() == "southeast" || text[1].ToLower() == "se")
                 {
                     return p.Move(Direction.SouthEast);
 
-                } else if (text[1].ToLower() == "southwest" || text[1].ToLower() == "sw")
+                } 
+                else if (text[1].ToLower() == "southwest" || text[1].ToLower() == "sw")
                 {
                     return p.Move(Direction.SouthWest);
 
-                } else if (text[1].ToLower() == "up")
+                } 
+                else if (text[1].ToLower() == "up")
                 {
                     return p.Move(Direction.Up);
 
-                } else if (text[1].ToLower() == "down")
+                } 
+                else if (text[1].ToLower() == "down")
                 {
                     return p.Move(Direction.Down);
 
-                } else
+                } 
+                else
                 {
                     return "I don't know how to move like that";
                 }

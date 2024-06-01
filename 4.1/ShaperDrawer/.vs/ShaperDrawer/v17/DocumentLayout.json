@@ -52,9 +52,10 @@
               "RelativeDocumentMoniker": "TestDrawing.txt",
               "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\TestDrawing.txt",
               "RelativeToolTip": "TestDrawing.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-16T08:29:52.787Z"
+              "WhenOpened": "2024-04-16T08:29:52.787Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,7 +67,8 @@
               "RelativeToolTip": "ExtensionMethods.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T03:08:38.904Z"
+              "WhenOpened": "2024-04-15T03:08:38.904Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -78,7 +80,8 @@
               "RelativeToolTip": "MyRectangle.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAQwD0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T07:33:24.251Z"
+              "WhenOpened": "2024-04-02T07:33:24.251Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -90,7 +93,8 @@
               "RelativeToolTip": "MyLine.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAgwDcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T11:30:51.885Z"
+              "WhenOpened": "2024-04-02T11:30:51.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -102,7 +106,8 @@
               "RelativeToolTip": "MyCircle.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAgwEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T09:56:13.316Z"
+              "WhenOpened": "2024-04-02T09:56:13.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -114,7 +119,8 @@
               "RelativeToolTip": "Shape.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAqwEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T04:56:11Z"
+              "WhenOpened": "2024-03-10T04:56:11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -126,7 +132,8 @@
               "RelativeToolTip": "Drawing.cs",
               "ViewState": "AQIAAHAAAAAAAAAAAAAcwJkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T10:41:08.82Z"
+              "WhenOpened": "2024-03-24T10:41:08.82Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -136,7 +143,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\4.1\\ShaperDrawer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFgAAACDAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAcwFgAAACDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-10T04:52:35.017Z",
               "EditorCaption": ""
