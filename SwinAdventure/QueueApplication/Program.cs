@@ -93,7 +93,7 @@
             Location supermarket = new Location(new string[] { "supermarket" }, "Supermarket", "An abandoned supermarket");
             home.AddPath(new Path(Direction.South, "South", "You pass through a road with many cars, but nobody's in them.", supermarket));
             supermarket.AddPath(new Path(Direction.North, "North", "You pass through a road with many cars, but nobody's in them.", home));
-            Bag shoppingBag = new Bag(new string[] { "shopping bag" }, "Shopping Bag", "A shopping bag");
+            Bag shoppingBag = new Bag(new string[] { "shoppingBag" }, "Shopping Bag", "A shopping bag");
             Item apple = new Item(new string[] { "apple" }, "Apple", "A fresh apple");
             Item oreo = new Item(new string[] { "oreo" }, "Oreo", "A pack of oreo");
             shoppingBag.Inventory.Put(apple);

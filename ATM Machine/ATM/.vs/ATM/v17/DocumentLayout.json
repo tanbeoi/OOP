@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\",
+  "WorkspaceRootPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|d:\\personal\\coding\\schoolwork\\sem 2\\oop\\oop git\\atm machine\\atm\\atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\atm machine\\atm\\atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\atm machine\\atm\\atm\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\atm machine\\atm\\atm\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Bank.cs",
+              "RelativeDocumentMoniker": "ATM\\Bank.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Bank.cs",
+              "RelativeToolTip": "ATM\\Bank.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:32:07.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Account.cs",
+              "RelativeDocumentMoniker": "ATM\\Account.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Account.cs",
+              "RelativeToolTip": "ATM\\Account.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAcwDkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:16:04.483Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Program.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Program.cs",
               "RelativeDocumentMoniker": "ATM\\Program.cs",
-              "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Program.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Program.cs",
               "RelativeToolTip": "ATM\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-01T07:40:45.199Z",
               "EditorCaption": ""
