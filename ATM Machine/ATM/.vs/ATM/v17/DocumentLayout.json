@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|d:\\personal\\coding\\schoolwork\\sem 2\\oop\\oop git\\atm machine\\atm\\atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Program.cs",
+              "RelativeDocumentMoniker": "ATM\\Program.cs",
+              "ToolTip": "D:\\Personal\\Coding\\Schoolwork\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Program.cs",
+              "RelativeToolTip": "ATM\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T07:40:45.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
