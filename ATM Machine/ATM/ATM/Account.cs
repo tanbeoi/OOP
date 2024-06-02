@@ -36,20 +36,35 @@ namespace ATM
             set { _balance = value; }
         }
 
-        public void Deposit(int amount)
+        public virtual string Deposit(int amount)
         {
             _balance += amount;
+            return $"You have deposited ${amount}. Your new balance is ${_balance}";
         }
 
-        public void Withdraw(int amount)
+        public virtual string Withdraw(int amount)
         {
+            if (amount > _balance)
+            {
+                return null;
+            }
             _balance -= amount;
+            return $"You have withdrawn ${amount}. Your new balance is ${_balance}";
         }
 
-        public void Transfer(int amount, Account destinationAccount)
+        public string Transfer(int amount, Account destinationAccount)
         {
-            _balance -= amount;
-            destinationAccount.Deposit(amount);
+            if (amount > _balance)
+            {
+                return null;
+            } 
+            else
+            {
+                _balance -= amount;
+                destinationAccount.Deposit(amount);
+                return $"You have transferred ${amount} to account number {destinationAccount.AccountNumber}. Your new balance is ${_balance}";
+            }
+            
         }
 
         public Account? AreYou(int InputAccountNum, int InputPassword)

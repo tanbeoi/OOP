@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\atm\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\atm\\accountoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\accountoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\atm\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\atm machine\\atm\\atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\atm machine\\atm\\atm\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\atm\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\atm machine\\atm\\atm\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\atm machine\\atm\\atm\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\atm\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\atm\\bankselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\bankselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|c:\\personal\\computer science\\sem 2\\oop\\oop git\\atm machine\\atm\\atm\\checkingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C0E648C-6A2C-428E-B1AA-DDDB07806DFD}|ATM\\ATM.csproj|solutionrelative:atm\\checkingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,39 +50,117 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bank.cs",
-              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Bank.cs",
-              "RelativeDocumentMoniker": "ATM\\Bank.cs",
-              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Bank.cs",
-              "RelativeToolTip": "ATM\\Bank.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowCYAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "CheckingAccount.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\CheckingAccount.cs",
+              "RelativeDocumentMoniker": "ATM\\CheckingAccount.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\CheckingAccount.cs",
+              "RelativeToolTip": "ATM\\CheckingAccount.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T16:32:07.976Z",
+              "WhenOpened": "2024-06-02T12:46:29.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "SavingsAccount.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\SavingsAccount.cs",
+              "RelativeDocumentMoniker": "ATM\\SavingsAccount.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\SavingsAccount.cs",
+              "RelativeToolTip": "ATM\\SavingsAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwCMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T12:37:26.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Account.cs",
               "RelativeDocumentMoniker": "ATM\\Account.cs",
               "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Account.cs",
               "RelativeToolTip": "ATM\\Account.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAcwDkAAAANAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-01T16:16:04.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "AccountOptions.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\AccountOptions.cs",
+              "RelativeDocumentMoniker": "ATM\\AccountOptions.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\AccountOptions.cs",
+              "RelativeToolTip": "ATM\\AccountOptions.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowKAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T06:12:00.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Utility.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Utility.cs",
+              "RelativeDocumentMoniker": "ATM\\Utility.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Utility.cs",
+              "RelativeToolTip": "ATM\\Utility.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwDQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T06:14:32.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Validator.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Validator.cs",
+              "RelativeDocumentMoniker": "ATM\\Validator.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Validator.cs",
+              "RelativeToolTip": "ATM\\Validator.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAcwKYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T05:52:35.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BankSelector.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\BankSelector.cs",
+              "RelativeDocumentMoniker": "ATM\\BankSelector.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\BankSelector.cs",
+              "RelativeToolTip": "ATM\\BankSelector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T05:01:27.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Bank.cs",
+              "RelativeDocumentMoniker": "ATM\\Bank.cs",
+              "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Bank.cs",
+              "RelativeToolTip": "ATM\\Bank.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:32:07.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Program.cs",
               "RelativeDocumentMoniker": "ATM\\Program.cs",
               "ToolTip": "C:\\Personal\\Computer Science\\Sem 2\\OOP\\OOP GIT\\ATM Machine\\ATM\\ATM\\Program.cs",
               "RelativeToolTip": "ATM\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAA5AAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAcwEEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-01T07:40:45.199Z",
               "EditorCaption": ""

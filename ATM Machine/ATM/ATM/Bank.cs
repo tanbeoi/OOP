@@ -20,6 +20,16 @@ namespace ATM
             }
         }
 
+        public string Id
+        {
+            get { return _ids[0].ToUpper(); }
+        }
+
+        public void AddId(string id)
+        {
+            _ids.Add(id.ToLower());
+        }
+
         public bool AreYou(string id)
         {
             if (_ids.Contains(id.ToLower()))
@@ -47,6 +57,18 @@ namespace ATM
             foreach (Account account in _accounts)
             {
                 if (account.AccountNumber == accountNumber && account.Password == password)
+                {
+                    return account;
+                }
+            }
+            return null;
+        }
+
+        public Account? GetTransferAccount(int accountNumber)
+        {
+            foreach (Account account in _accounts)
+            {
+                if (account.AccountNumber == accountNumber)
                 {
                     return account;
                 }
