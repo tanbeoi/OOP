@@ -52,6 +52,11 @@ namespace ATM
             _accounts.Add(account);
         }
 
+        public void DeleteAccount(Account account)
+        {
+            _accounts.Remove(account);
+        }
+
         public Account? GetAccount(int accountNumber, int password)
         {
             foreach (Account account in _accounts)

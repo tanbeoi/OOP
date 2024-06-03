@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ATM
@@ -15,9 +16,26 @@ namespace ATM
 
         public Account? SignInOptions(Bank bank)
         {
-           
-            Console.WriteLine("Please select an option: \n1. Sign in \n2. Create a normal account\n3. Create a saving account\n4. Create a checking account\n5. Back");
-            int InputOption = Convert.ToInt32(Console.ReadLine().Trim());
+            Console.Clear();
+            Console.WriteLine("Please select an option: \n1. Sign in \n2. Create a normal account\n3. Create a saving account\n4. Create a checking account\n5. Back\n\nYour Option:");
+
+            int InputOption;
+            while (true)
+            {
+                string input = Console.ReadLine().Trim();
+
+                // Check if the input is an integer and within the range
+                if (int.TryParse(input, out InputOption) && InputOption >= 1 && InputOption <= 5)
+                {
+                    break; // Exit the loop if the input is valid
+                }
+                else
+                {
+                    Utility.PrintColoredMessage("Invalid option. Please try again.", ConsoleColor.Red);
+                    Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
+                    return SignInOptions(bank);
+                }
+            }
 
             if (InputOption == 5)
             {
@@ -27,28 +45,35 @@ namespace ATM
             switch (InputOption)
             {
                 case 1:
-                    
                     Console.WriteLine("Please enter your account number (6 digits): ");
-                    int InputAccountNum = Convert.ToInt32(Console.ReadLine().Trim());
-                    int InputPassword = Convert.ToInt32(Utility.GetSecretInput("Please enter your password (4 digits): "));
-
-                    if (InputAccountNum.ToString().Length != 6 || InputPassword.ToString().Length != 4)
+                    string inputAccountNumStr = Console.ReadLine().Trim();
+                    if (!int.TryParse(inputAccountNumStr, out int inputAccountNum) || inputAccountNumStr.Length != 6)
                     {
-                    
-                        Utility.PrintColoredMessage("Invalid account number or password. Please try again.", ConsoleColor.Red);
+                        Utility.PrintColoredMessage("Invalid account number. Please try again.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
                         return SignInOptions(bank);
                     }
-                    else if (bank.GetAccount(InputAccountNum, InputPassword) == null)
+
+                    string inputPasswordStr = Utility.GetSecretInput("Please enter your password (4 digits): ");
+                    if (!int.TryParse(inputPasswordStr, out int inputPassword) || inputPasswordStr.Length != 4)
                     {
-                   
+                        Utility.PrintColoredMessage("Invalid password. Please try again.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
+                        return SignInOptions(bank);
+                    }
+
+                    if (bank.GetAccount(inputAccountNum, inputPassword) == null)
+                    {
                         Utility.PrintColoredMessage("Account not found. Please try again.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
                         return SignInOptions(bank);
                     }
                     else
                     {
                         Console.Clear();
-                        Utility.PrintColoredMessage("You have logged in successfully. Welcome back " + (bank.GetAccount(InputAccountNum, InputPassword).AccountNumber), ConsoleColor.Green);
-                        return bank.GetAccount(InputAccountNum, InputPassword);
+                        Utility.PrintColoredMessage("You have logged in successfully. Welcome back " + bank.GetAccount(inputAccountNum, inputPassword).AccountNumber, ConsoleColor.Green);
+                        Utility.PressEnterToContinue();
+                        return bank.GetAccount(inputAccountNum, inputPassword);
                     }
 
                     break;
@@ -60,6 +85,7 @@ namespace ATM
                     if (!int.TryParse(accountNumInput, out NewAccountNum) || accountNumInput.Length != 6)
                     {
                         Utility.PrintColoredMessage("Invalid account number format. Please enter a 6-digit number.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
                         return SignInOptions(bank);
                     }
 
@@ -68,14 +94,16 @@ namespace ATM
                     if (!int.TryParse(passwordInput, out NewPassword) || passwordInput.Length != 4)
                     {
                         Utility.PrintColoredMessage("Invalid password format. Please enter a 4-digit number.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
                         return SignInOptions(bank);
                     }
 
-                    Account newAccount = new Account(NewAccountNum, NewPassword);
+                    Account newAccount = new NormalAccount(NewAccountNum, NewPassword);
                     bank.AddAccount(newAccount);
                         
                     Console.Clear();
                     Utility.PrintColoredMessage("Account created successfully!", ConsoleColor.Green);
+                    Utility.PressEnterToContinue();
                     return SignInOptions(bank);
 
                     
@@ -89,6 +117,7 @@ namespace ATM
                     if (!int.TryParse(accountNumInput2, out NewAccountNum2) || accountNumInput2.Length != 6)
                     {
                         Utility.PrintColoredMessage("Invalid account number format. Please enter a 6-digit number.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
                         return SignInOptions(bank);
                     }
 
@@ -97,6 +126,7 @@ namespace ATM
                     if (!int.TryParse(passwordInput2, out NewPassword2) || passwordInput2.Length != 4)
                     {
                         Utility.PrintColoredMessage("Invalid password format. Please enter a 4-digit number.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
                         return SignInOptions(bank);
                     }
 
@@ -106,6 +136,7 @@ namespace ATM
                     if (!int.TryParse(interestRateInput, out InputInterestRate) || (InputInterestRate != 1 && InputInterestRate != 2))
                     {
                         Utility.PrintColoredMessage("Invalid interest rate choice. Please enter either 1 or 2.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
                         return SignInOptions(bank);
                     }
 
@@ -121,6 +152,7 @@ namespace ATM
                     }
                         
                     Utility.PrintColoredMessage("Account created successfully!", ConsoleColor.Green);
+                    Utility.PressEnterToContinue();
                     return SignInOptions(bank);
 
                     
@@ -133,6 +165,7 @@ namespace ATM
                     if (!int.TryParse(accountNumInput3, out NewAccountNum3) || accountNumInput3.Length != 6)
                     {
                         Utility.PrintColoredMessage("Invalid account number format. Please enter a 6-digit number.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
                         return SignInOptions(bank);
                     }
 
@@ -141,6 +174,7 @@ namespace ATM
                     if (!int.TryParse(passwordInput3, out NewPassword3) || passwordInput3.Length != 4)
                     {
                         Utility.PrintColoredMessage("Invalid password format. Please enter a 4-digit number.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
                         return SignInOptions(bank);
                     }
 
@@ -150,6 +184,7 @@ namespace ATM
                     if (!int.TryParse(overdraftLimitInput, out InputOverdraftLimit) || (InputOverdraftLimit != 1 && InputOverdraftLimit != 2))
                     {
                         Utility.PrintColoredMessage("Invalid overdraft limit choice. Please enter either 1 or 2.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000); // Pause for 1 seconds to allow the user to see the error message
                         return SignInOptions(bank);
                     }
 
@@ -164,8 +199,11 @@ namespace ATM
                     }
                     bank.AddAccount(accountToCreate);
                     Utility.PrintColoredMessage("Account created successfully!", ConsoleColor.Green);
+                    Utility.PressEnterToContinue();
                     return SignInOptions(bank);
                     break;
+
+
                 default:
                  
                     Utility.PrintColoredMessage("Invalid option. Please try again.", ConsoleColor.Red);

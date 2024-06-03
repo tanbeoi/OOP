@@ -49,9 +49,11 @@
     <Compile Include="Bank.cs" />
     <Compile Include="BankSelector.cs" />
     <Compile Include="CheckingAccount.cs" />
+    <Compile Include="NormalAccount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SavingsAccount.cs" />
+    <Compile Include="TransactionType.cs" />
     <Compile Include="Utility.cs" />
     <Compile Include="Validator.cs" />
   </ItemGroup>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATM
 {
-    public class Account
+    public abstract class Account
     {
         int _accountNumber;
         int _password;
@@ -38,31 +38,34 @@ namespace ATM
 
         public virtual string Deposit(int amount)
         {
-            _balance += amount;
-            return $"You have deposited ${amount}. Your new balance is ${_balance}";
+            Balance += amount;
+            return $"You have deposited ${amount}. Your new balance is ${Balance}";
         }
 
         public virtual string Withdraw(int amount)
         {
-            if (amount > _balance)
+            if (amount > Balance)
             {
                 return null;
             }
-            _balance -= amount;
-            return $"You have withdrawn ${amount}. Your new balance is ${_balance}";
+            else
+            {
+                Balance -= amount;
+                return $"You have withdrawn ${amount}. Your new balance is ${Balance}";
+            }
         }
 
         public string Transfer(int amount, Account destinationAccount)
         {
-            if (amount > _balance)
+            if (amount > Balance)
             {
                 return null;
             } 
             else
             {
-                _balance -= amount;
+                Balance -= amount;
                 destinationAccount.Deposit(amount);
-                return $"You have transferred ${amount} to account number {destinationAccount.AccountNumber}. Your new balance is ${_balance}";
+                return $"You have transferred ${amount} to account number {destinationAccount.AccountNumber}. Your new balance is ${Balance}";
             }
             
         }

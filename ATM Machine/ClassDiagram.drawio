@@ -1,51 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-06-02T06:05:15.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jkD4VdLG7YQPGxg-GSH_" version="24.4.13" type="device">
+<mxfile host="app.diagrams.net" modified="2024-06-02T13:50:03.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="E2a70nP2CoTwt_Bb45g4" version="24.4.13" type="device">
   <diagram id="4hGNNaWelnX5ogM7S-4X" name="Page-1">
-    <mxGraphModel dx="2524" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YOJYTE3-wiDfbg3zjTLi-4" value="Account" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="240" width="160" height="410" as="geometry" />
-        </mxCell>
-        <mxCell id="YOJYTE3-wiDfbg3zjTLi-5" value="&lt;div&gt;- _balance: int = 0&lt;/div&gt;&lt;div&gt;- _accountNum: int&lt;br&gt;- _password: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YOJYTE3-wiDfbg3zjTLi-4" vertex="1">
-          <mxGeometry y="26" width="160" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="YOJYTE3-wiDfbg3zjTLi-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="YOJYTE3-wiDfbg3zjTLi-4" vertex="1">
-          <mxGeometry y="80" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="YOJYTE3-wiDfbg3zjTLi-7" value="+ Account(int AccountNum, int password)&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Deposit (int amount): void&lt;br&gt;&lt;br&gt;+ Withdraw (int amount): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;+ Transfer (int amount, Account account): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ AreYou (int): bool&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;+ AccountNum: int &amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;+ Password: int &amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;br&gt;+ Balance: int &amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;+ Bank: bank&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YOJYTE3-wiDfbg3zjTLi-4" vertex="1">
-          <mxGeometry y="88" width="160" height="322" as="geometry" />
-        </mxCell>
-        <mxCell id="YOJYTE3-wiDfbg3zjTLi-8" value="Bank" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="240" width="160" height="410" as="geometry" />
-        </mxCell>
-        <mxCell id="YOJYTE3-wiDfbg3zjTLi-9" value="- List [Account]: _accountList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YOJYTE3-wiDfbg3zjTLi-8" vertex="1">
-          <mxGeometry y="26" width="160" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="YOJYTE3-wiDfbg3zjTLi-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="YOJYTE3-wiDfbg3zjTLi-8" vertex="1">
-          <mxGeometry y="80" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="YOJYTE3-wiDfbg3zjTLi-11" value="+ Bank (string name)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ AddAccount (string accountNumber, int Password)&lt;/div&gt;&lt;div&gt;+ DeleteAccount(string accountNumber, int Password)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ FindAccount (int AccountNum): Account&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Description: string &amp;lt;&amp;lt;readonly, property&amp;gt;&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YOJYTE3-wiDfbg3zjTLi-8" vertex="1">
-          <mxGeometry y="88" width="160" height="322" as="geometry" />
-        </mxCell>
-        <mxCell id="3K3qmI-YffXcMCkNoZgT-1" value="&lt;div&gt;Make error red, confirmation green&lt;/div&gt;Log in Process:&amp;nbsp;&lt;div&gt;1. Make user enter bank name, get BankInput&lt;/div&gt;&lt;div&gt;2. Welcome message from that bank&lt;/div&gt;&lt;div&gt;3. Make user to:&lt;br&gt;+ Log in by enter account number and password and make InputBank.GetAccount() using their input&lt;/div&gt;&lt;div&gt;+ Sign up by creating account number and password and make InputBank.AddAccount()&lt;/div&gt;&lt;div&gt;4. Give user different options:&lt;/div&gt;&lt;div&gt;+ See Account Balance&lt;/div&gt;&lt;div&gt;+ Cash Deposit&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ Withdrawal&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="100" width="260" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="3K3qmI-YffXcMCkNoZgT-2" value="Interface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="410" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="3K3qmI-YffXcMCkNoZgT-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3K3qmI-YffXcMCkNoZgT-2" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3K3qmI-YffXcMCkNoZgT-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="3K3qmI-YffXcMCkNoZgT-2" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="3K3qmI-YffXcMCkNoZgT-5" value="+&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3K3qmI-YffXcMCkNoZgT-2" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3K3qmI-YffXcMCkNoZgT-6" value="&lt;div&gt;1. Create log in user interface&lt;/div&gt;&lt;div&gt;2.Create hidden password&lt;/div&gt;&lt;div&gt;3. Create different types of accounts&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="840" y="110" width="230" height="230" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

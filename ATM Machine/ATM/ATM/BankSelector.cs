@@ -21,15 +21,13 @@ namespace ATM
 
         public Bank? SelectBank()
         {
-            Console.WriteLine("Please select a bank: \n" + BankList);
+            Console.WriteLine("Please select a bank: \n" + BankList + "\nYour Option:");
             string InputBank = Console.ReadLine().ToLower().Trim();
 
             foreach (Bank bank in _banks)
             {
                 if (bank.AreYou(InputBank))
                 {
-                    Console.Clear();
-                    Utility.PrintColoredMessage("Welcome to " + bank.Name + ".", ConsoleColor.Green);
                     return bank;
                 }
             }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ATM
@@ -15,8 +16,8 @@ namespace ATM
         public bool AccountOptionsMenu(Account account, List<Bank> banksDatabase)
         {   
             bool isSignedOut = false;
-      
-            Console.WriteLine("\nPlease select an option: \n1. Deposit \n2. Withdraw \n3. Transfer \n4. Check balance \n5. Sign out\n");
+            Console.Clear();
+            Console.WriteLine("Please select an option: \n1. Deposit \n2. Withdraw \n3. Transfer \n4. Check balance \n5. Sign out\n\nYour Option:");
             int InputOption = Convert.ToInt32(Console.ReadLine().Trim());
 
             switch (InputOption)
@@ -37,15 +38,16 @@ namespace ATM
                         {
                         
                             Utility.PrintColoredMessage("Invalid input. Please enter a valid positive number.", ConsoleColor.Red);
-                            input = Console.ReadLine().Trim();
+                            Utility.SleepWithDots(1000);
+                            return AccountOptionsMenu(account, banksDatabase);
                         }
                     }
 
                     
                     Console.Clear();
                     Console.WriteLine(account.Deposit(DepositAmount));
-                    AccountOptionsMenu(account, banksDatabase);
-                    return isSignedOut;
+                    Utility.PressEnterToContinue();
+                    return AccountOptionsMenu(account, banksDatabase);
 
                 case 2:
                   
@@ -60,27 +62,28 @@ namespace ATM
                             break;
                         }
                         else
-                        {
-                            
+                        { 
                             Utility.PrintColoredMessage("Invalid input. Please enter a valid positive number.", ConsoleColor.Red);
-                            input = Console.ReadLine().Trim();
+                            Utility.SleepWithDots(1000);
+                            return AccountOptionsMenu(account, banksDatabase);
                         }
                     }
 
-                    if (account.Withdraw(WithdrawAmount) == null)
+                    string withdrawalResult = account.Withdraw(WithdrawAmount);
+                    if (withdrawalResult == null)
                     {
                         Utility.PrintColoredMessage("Insufficient funds. Please try again.", ConsoleColor.Red);
-                        AccountOptionsMenu(account, banksDatabase);
-                        return isSignedOut;
+                        Utility.SleepWithDots(1000);
+                        return AccountOptionsMenu(account, banksDatabase);
                     }
                     else
                     {
-                        Console.Clear();    
-                        Console.WriteLine(account.Withdraw(WithdrawAmount));
-                        AccountOptionsMenu(account, banksDatabase);
-                        return isSignedOut;
+                        Console.Clear();
+                        Console.WriteLine(withdrawalResult);
+                        Utility.PressEnterToContinue();
+                        return AccountOptionsMenu(account, banksDatabase);
                     }
-                    
+
                 case 3:
            
                     Console.WriteLine("Please enter the amount you would like to transfer: ");
@@ -95,16 +98,25 @@ namespace ATM
                         }
                         else
                         {
-                           
                             Utility.PrintColoredMessage("Invalid input. Please enter a valid positive number.", ConsoleColor.Red);
-                            input = Console.ReadLine().Trim();
+                            Utility.SleepWithDots(1000);
+                            return AccountOptionsMenu(account, banksDatabase);
                         }
                     }
 
                     BankSelector bankSelector = new BankSelector(banksDatabase);
-               
-                    Console.WriteLine("Please enter the bank of the account you want to transfer to:\n" + bankSelector.BankList);
-                    string DestinationBank = Console.ReadLine().Trim();
+                    Bank selectedBank = null;
+
+                    while (selectedBank == null)
+                    {
+                        selectedBank = bankSelector.SelectBank();
+                        if (selectedBank == null)
+                        {
+                            Utility.PrintColoredMessage("Please select a valid bank by either abbreviated name or number", ConsoleColor.Red);
+                        }
+
+                    }
+
                     Console.WriteLine("\nPlease enter the account number you would like to transfer to (6 digits): ");
 
                     int DestinationAccountNum;
@@ -118,55 +130,54 @@ namespace ATM
                         else
                         {
                             Utility.PrintColoredMessage("Invalid input. Please enter a valid 6-digit account number.", ConsoleColor.Red);
+                            Utility.SleepWithDots(1000);
+                            return AccountOptionsMenu(account, banksDatabase);
                         }
                     }
 
-                    foreach (Bank bank in banksDatabase)
+                    Account? destinationAccount = selectedBank.GetTransferAccount(DestinationAccountNum);
+                    if (destinationAccount == null)
                     {
-                        if (bank.AreYou(DestinationBank))
-                        {
-                            Account? destinationAccount = bank.GetTransferAccount(DestinationAccountNum);
-                            if (destinationAccount == null)
-                            {
                                 
-                                Utility.PrintColoredMessage("Account not found. Please try again.", ConsoleColor.Red);
-                                AccountOptionsMenu(account, banksDatabase);
-                            }
-                            else if (account.Withdraw(TransferAmount) == null)
-                            {
-                                
-                                Utility.PrintColoredMessage("Insufficient funds. Please try again.", ConsoleColor.Red);
-                                AccountOptionsMenu(account, banksDatabase);
-                            } 
-                            else 
-                            {
-                                Console.Clear();
-                                Console.WriteLine(account.Transfer(TransferAmount, destinationAccount));
-                                AccountOptionsMenu(account, banksDatabase);
-                            }
-                        }
+                        Utility.PrintColoredMessage("Account not found. Please try again.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000);
+                        return AccountOptionsMenu(account, banksDatabase);
                     }
-            
-                    Utility.PrintColoredMessage("Bank not found. Please try again.", ConsoleColor.Red);
-                    AccountOptionsMenu(account, banksDatabase);
-                    return isSignedOut;
-               
+                    else if (TransferAmount > account.Balance)
+                    {          
+                        Utility.PrintColoredMessage("Insufficient funds. Please try again.", ConsoleColor.Red);
+                        Utility.SleepWithDots(1000);
+                        return AccountOptionsMenu(account, banksDatabase);
+                    } 
+                    else 
+                    {
+                        Console.Clear();
+                        Console.WriteLine(account.Transfer(TransferAmount, destinationAccount));
+                        Utility.PressEnterToContinue();
+                        return AccountOptionsMenu(account, banksDatabase);
+                    }
+
+                  
+
                 case 4:
                     Console.Clear();
                     Console.WriteLine("Your current balance is $" + account.Balance);
-                    AccountOptionsMenu(account, banksDatabase);
-                    return isSignedOut;
-           
+                    Utility.PressEnterToContinue();
+                    return AccountOptionsMenu(account, banksDatabase);
+
                 case 5:
                     Console.Clear();
                     Console.WriteLine("You have signed out successfully.");
+                    Utility.SleepWithDots(2000);
                     isSignedOut = true;
                     return isSignedOut;
+
+
                 default:
                  
                     Console.WriteLine("Invalid option. Please try again.");
-                    AccountOptionsMenu(account, banksDatabase);
-                    return isSignedOut;
+                    Utility.SleepWithDots(1000);
+                    return AccountOptionsMenu(account, banksDatabase);
             }
         }
     }
